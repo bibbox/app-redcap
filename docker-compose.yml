@@ -5,12 +5,10 @@ services:
     image: bibbox/redcap
     container_name:  bibbox-redcap
     restart: unless-stopped
-    networks:
-      - bibbox-default-network
     links:
       - bibbox-redcap-db:redcap-db
     ports:
-      - "8065:80"
+      - "8095:80"
     depends_on:
       - bibbox-redcap-db
       - bibbox-redcap-data
@@ -21,8 +19,6 @@ services:
     image: mysql:8
     container_name: bibbox-redcap-db
     restart: unless-stopped
-    networks:
-      - bibbox-default-network
     user: root
     environment:
       - MYSQL_ROOT_PASSWORD=thispasswordisneverusedeveninsidethecontainer
@@ -40,4 +36,3 @@ services:
     volumes:
       - ./data/var/lib/mysql:/var/lib/mysql
       - ./data/www:/redcap_webroot
-
