@@ -29,7 +29,7 @@ services:
         ADMINER_DEFAULT_DB_NAME: redcap
 
   bibbox-redcap-db:
-    image: mysql:8
+    image: mariadb
     container_name: bibbox-redcap-db
     restart: unless-stopped
     user: root
