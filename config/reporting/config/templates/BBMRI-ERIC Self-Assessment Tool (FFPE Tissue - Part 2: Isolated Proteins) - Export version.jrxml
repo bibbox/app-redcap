@@ -1,0 +1,4044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="REDCAP Test" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="25" bottomMargin="25" uuid="0d64845a-6bf0-4578-97f3-effe73147342">
+	<field name="record_id" class="java.lang.String"/>
+	<field name="ffpe_proteins_003" class="java.lang.String"/>
+	<field name="ffpe_proteins_004" class="java.lang.String"/>
+	<field name="contact_email" class="java.lang.String"/>
+	<field name="ffpe_proteins_005" class="java.lang.String"/>
+	<field name="ffpe_proteins_006" class="java.lang.String"/>
+	<field name="ffpe_proteins_007" class="java.lang.String"/>
+	<field name="ffpe_proteins_008" class="java.lang.String"/>
+	<field name="ffpe_proteins_009" class="java.lang.String"/>
+	<field name="ffpe_proteins_010" class="java.lang.String"/>
+	<field name="ffpe_proteins_011" class="java.lang.String"/>
+	<field name="ffpe_proteins_012" class="java.lang.String"/>
+	<field name="ffpe_proteins_013" class="java.lang.String"/>
+	<field name="ffpe_proteins_014" class="java.lang.String"/>
+	<field name="ffpe_proteins_015" class="java.lang.String"/>
+	<field name="ffpe_proteins_016" class="java.lang.String"/>
+	<field name="ffpe_proteins_017" class="java.lang.String"/>
+	<field name="ffpe_proteins_018" class="java.lang.String"/>
+	<field name="ffpe_proteins_019" class="java.lang.String"/>
+	<field name="ffpe_proteins_020" class="java.lang.String"/>
+	<field name="ffpe_proteins_021" class="java.lang.String"/>
+	<field name="ffpe_proteins_022" class="java.lang.String"/>
+	<field name="ffpe_proteins_023" class="java.lang.String"/>
+	<field name="ffpe_proteins_024" class="java.lang.String"/>
+	<field name="ffpe_proteins_025" class="java.lang.String"/>
+	<field name="ffpe_proteins_026" class="java.lang.String"/>
+	<field name="ffpe_proteins_027" class="java.lang.String"/>
+	<field name="ffpe_proteins_028" class="java.lang.String"/>
+	<field name="ffpe_proteins_029" class="java.lang.String"/>
+	<field name="ffpe_proteins_030" class="java.lang.String"/>
+	<field name="ffpe_proteins_031" class="java.lang.String"/>
+	<field name="ffpe_proteins_032" class="java.lang.String"/>
+	<field name="ffpe_proteins_033" class="java.lang.String"/>
+	<field name="ffpe_proteins_034" class="java.lang.String"/>
+	<field name="ffpe_proteins_035" class="java.lang.String"/>
+	<field name="ffpe_proteins_036" class="java.lang.String"/>
+	<field name="ffpe_proteins_037" class="java.lang.String"/>
+	<field name="ffpe_proteins_038" class="java.lang.String"/>
+	<field name="ffpe_proteins_039" class="java.lang.String"/>
+	<field name="ffpe_proteins_040" class="java.lang.String"/>
+	<field name="ffpe_proteins_041" class="java.lang.String"/>
+	<field name="ffpe_proteins_042" class="java.lang.String"/>
+	<field name="ffpe_proteins_043" class="java.lang.String"/>
+	<field name="ffpe_proteins_044" class="java.lang.String"/>
+	<field name="ffpe_proteins_045" class="java.lang.String"/>
+	<field name="ffpe_proteins_046" class="java.lang.String"/>
+	<field name="ffpe_proteins_047" class="java.lang.String"/>
+	<field name="ffpe_proteins_048" class="java.lang.String"/>
+	<field name="ffpe_proteins_049" class="java.lang.String"/>
+	<field name="ffpe_proteins_050" class="java.lang.String"/>
+	<field name="ffpe_proteins_051" class="java.lang.String"/>
+	<field name="ffpe_proteins_052" class="java.lang.String"/>
+	<field name="ffpe_proteins_053" class="java.lang.String"/>
+	<field name="ffpe_proteins_054" class="java.lang.String"/>
+	<field name="ffpe_proteins_055" class="java.lang.String"/>
+	<field name="ffpe_proteins_056" class="java.lang.String"/>
+	<field name="ffpe_proteins_057" class="java.lang.String"/>
+	<field name="ffpe_proteins_058" class="java.lang.String"/>
+	<field name="ffpe_proteins_059" class="java.lang.String"/>
+	<field name="ffpe_proteins_060" class="java.lang.String"/>
+	<field name="ffpe_proteins_061" class="java.lang.String"/>
+	<field name="ffpe_proteins_062" class="java.lang.String"/>
+	<field name="ffpe_proteins_063" class="java.lang.String"/>
+	<field name="ffpe_proteins_064" class="java.lang.String"/>
+	<field name="ffpe_proteins_065" class="java.lang.String"/>
+	<field name="ffpe_proteins_066" class="java.lang.String"/>
+	<field name="ffpe_proteins_067" class="java.lang.String"/>
+	<field name="ffpe_proteins_068" class="java.lang.String"/>
+	<field name="ffpe_proteins_069" class="java.lang.String"/>
+	<field name="ffpe_proteins_070" class="java.lang.String"/>
+	<field name="ffpe_proteins_071" class="java.lang.String"/>
+	<field name="ffpe_proteins_072" class="java.lang.String"/>
+	<field name="ffpe_proteins_073" class="java.lang.String"/>
+	<field name="ffpe_proteins_074" class="java.lang.String"/>
+	<field name="ffpe_proteins_075" class="java.lang.String"/>
+	<field name="ffpe_proteins_076" class="java.lang.String"/>
+	<field name="ffpe_proteins_077" class="java.lang.String"/>
+	<field name="ffpe_proteins_078" class="java.lang.String"/>
+	<field name="ffpe_proteins_079" class="java.lang.String"/>
+	<field name="ffpe_proteins_080" class="java.lang.String"/>
+	<field name="ffpe_proteins_081" class="java.lang.String"/>
+	<field name="ffpe_proteins_082" class="java.lang.String"/>
+	<field name="ffpe_proteins_083" class="java.lang.String"/>
+	<field name="ffpe_proteins_084" class="java.lang.String"/>
+	<field name="ffpe_proteins_085" class="java.lang.String"/>
+	<field name="ffpe_proteins_086" class="java.lang.String"/>
+	<field name="ffpe_proteins_087" class="java.lang.String"/>
+	<field name="ffpe_proteins_088" class="java.lang.String"/>
+	<field name="ffpe_proteins_089" class="java.lang.String"/>
+	<field name="ffpe_proteins_090" class="java.lang.String"/>
+	<field name="ffpe_proteins_091" class="java.lang.String"/>
+	<field name="ffpe_proteins_092" class="java.lang.String"/>
+	<field name="ffpe_proteins_093" class="java.lang.String"/>
+	<field name="ffpe_proteins_094" class="java.lang.String"/>
+	<field name="ffpe_proteins_096" class="java.lang.String"/>
+	<field name="ffpe_proteins_097" class="java.lang.String"/>
+	<field name="ffpe_proteins_098" class="java.lang.String"/>
+	<field name="ffpe_proteins_099" class="java.lang.String"/>
+	<field name="ffpe_proteins_100" class="java.lang.String"/>
+	<field name="ffpe_proteins_101" class="java.lang.String"/>
+	<field name="ffpe_proteins_102" class="java.lang.String"/>
+	<field name="ffpe_proteins_103" class="java.lang.String"/>
+	<field name="ffpe_proteins_104" class="java.lang.String"/>
+	<field name="ffpe_proteins_105" class="java.lang.String"/>
+	<field name="eric_submission" class="java.lang.String"/>
+	<field name="ffpe_proteins_106" class="java.lang.String"/>
+	<pageHeader>
+		<band height="70">
+			<image>
+				<reportElement x="0" y="0" width="545" height="60" uuid="39b012d6-13b3-4972-89a8-f401c9a4ae50"/>
+				<imageExpression><![CDATA["banner.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="d2d5f9df-f15e-45c9-a791-2e2b4ca984db"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Record ID]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="634381a4-42d5-40b1-a923-2b53e56dcc09"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{record_id}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="175">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="175" uuid="1cab117d-3ab4-4b07-b87e-5fabd6f57250"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The integrity of molecules can change during primary sample collection, transport, storage and processing thus influence the research results. Standardisation of the entire process from collecting sample to applicable analysis techniques is key. The European Committee for Standardisation (CEN) published Technical Specifications to determine influencing factors and provide recommendations for the handling, documentation and processing of FFPE tissue specimens intended for protein analysis.CEN/TS 16827-2:2015 E Molecular in vitro diagnostic examinations - Specifications for pre-examination processes for FFPE tissue - Part 2: Isolated proteins<a href="https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_PROJECT:41046&cs=1FD7275F5AE4E23C9D30AF3C7F4824F6E">For further details, please visit the CEN website.</a>This Self-Assessment-Survey will help you to assess and improve your sample processing. ]]></text>
+			</staticText>
+		</band>
+		<band height="100">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="100" uuid="29f29fb2-7b9e-4324-a1bc-9b4bd2dfd93f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The colour coding of the following questions asked in this survey indicating in <font color="#ec6607">orange</font> that you <font color="#ec6607">shall</font> meet given criterion respectively in <font color="#004280">blue</font> that you <font color="#004280">should</font> meet the given criterion.True and accurate responses will give you genuine feedback on your sample collection procedures and will help you to improve certain processes in future.]]></text>
+			</staticText>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="8ef31a93-5db6-41f6-a82b-430c1b4af4d7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Main Contact
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="09a7b84e-1f72-45ec-9049-8f5a8f103e02"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Biobank]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="71cdebfe-02e6-4aca-8494-d0c8e980b023"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_003}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="05af3bda-50e1-44de-82a1-79057d1e687c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Name of contact person]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="e326e2d4-7b78-41eb-9a88-dc2383519738"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_004}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="c5235ada-d7af-4618-a2ef-c87e1464f299"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[E-Mail of contact person]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="daa8041e-b793-49f3-b6cd-90921c52e3a7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{contact_email}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="11b10be1-e13b-4a8e-b9d5-2bb86295cad6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="1e8eed42-7a33-4867-b606-c7e21e01f63c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_005}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="27dfa276-5144-46a2-a75d-c0e9a3c76af8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[ZIP]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="bb456c7b-72b1-494c-ae26-88a96c1ed8c2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_006}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="4b2329a1-9d77-4d85-8d20-f012f7fad883"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[City]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="517c6a91-00e0-40c1-9138-c04d7649a84b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_007}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="27896e55-7db4-4de5-be17-5afda704cc7d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Country]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="4b7c372c-17d5-497c-bf4c-d36fe886edff"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_008}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="6121134a-8096-4318-ad62-5624c8e94930"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="15112392-aa7a-446b-9c49-4418e3cb9327"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_009}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="18331952-4eab-4d2f-9c9e-16cbdf8a3055"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Overview
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="1c3ac084-aae7-443d-aea0-6162db39e46d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Biobank type]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="df8121fb-4633-48c0-b9e0-388351116c0d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_010}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="2a9402bc-0fa7-44a3-ae08-6ac16a7e67f6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Collection ID]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="0cb3eb24-0b60-47d7-9eef-dea05d51ce2b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_011}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="f6dae950-96a4-46dd-ac21-7312cf0ddffd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[How many samples does your collection assessment include?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="9d4e5d95-c9e8-4b81-bffc-d8fc15b953ee"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_012}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="ad406c3d-34ea-404d-990f-b549bbc9af3a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Which ICD-10 disease code is allocated to your collection?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="7e054692-c121-4088-97d1-285c7490aa43"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_013}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="d270d495-4e56-4b74-a470-1e1d5eb7a0e4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No disease code applicable, samples healthy donors used.]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="ba1a1a4c-c97c-46d4-8e8d-5b6500bb4fa9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_014}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="5ed22621-deea-4318-bced-42731d1f8609"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[BBMRI-ERIC Partner Charter signed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="25" uuid="38291195-5bc8-448a-992e-3bc7e05d59e3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="2f65586a-8009-4721-9138-f1e15f5aaf77">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_015}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="25" uuid="42ba8fd9-953b-4a2d-bf10-67dc90df9902"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="b0e5905f-b3af-4137-904c-610f5b0662e1">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_015}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="04949847-cf16-4f91-833e-8bf868158d9e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Primary tissue collection
+-
+
+Information about the sample donor]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="09b98b14-e795-4c1d-ab89-1b83447114fe"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Donor/patient ID documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="20beffe1-f23a-4b2b-8c97-52639671771c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="76055ebb-820b-4eeb-a4a2-83e7941349df">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_016}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="1e6a7e53-f37f-4011-8787-a6e2baa77a5c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="6fc0fa2b-e658-40c8-8b95-effd0ca5055d">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_016}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="96b1270a-7cf6-435c-8e45-46d89b55dd50"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Health status of donor/patient documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="3ccba4b1-8ebf-4424-a802-8b5ff33f423f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="bc093767-814a-4fe1-9243-da0024fcdb69">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_017}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3da88994-da68-4ea4-a0cb-d59f27d14d9d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e87e025a-50eb-4b04-a294-a75940dd2e41">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_017}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="5e5e4db1-507a-42d7-a7dd-bc59b72eba52"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Medical treatment prior to tissue collection documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="517be369-9c09-4a09-948e-8bf6d05ef975"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f9d42110-d1cf-4a2c-acf4-16535cfaca76">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_018}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="15473049-9932-486f-83b1-daccba2aa8d3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4e055a19-2595-4b49-be31-bac735425cfb">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_018}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="00eabbe8-3907-478e-9390-a1d0b070def5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Start of ischemia within the body (warm ischemia) documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="7dc730dd-47b4-40ea-894e-a8afc1649b05"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="7e6f0739-7b8a-4354-8e32-f14cff436e2c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_019}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="61e2fce1-105b-426e-a955-c885396f7681"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="ee03bda3-73bd-4001-868a-96e9e380a5d9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_019}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="6197ce61-4001-4224-90ac-c8b47dbad876"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Information on the primary tissue sample
+
+   
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="b6f6a1ae-afc1-4e0a-a51d-3dbd15984148"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Time point of tissue removal from the body?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="f0d105a1-b774-4856-a8eb-f675d9072b71"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="ae46a402-6b4d-470b-a1a9-f00ec282cb28">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_020}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="d6d2c8f7-ae27-4cb2-87b3-a9160206e0a0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="ad49d35d-48e4-4e8b-8759-59236d9807a2">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_020}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="ffd464d6-b0ca-4a2e-9839-dc11b3daa358"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Tissue type and condition documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="2d1150e1-fe9d-4478-9ae1-6c3fb00da619"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="20bd5748-9248-4ac1-8d1a-8d2b5095e94f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_021}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="2416519c-fccf-4878-ae4b-47be4de393e9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="f40dd286-d02d-4caa-84a6-982a4300b93c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_021}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="5061ecef-5d6c-4f95-aad6-1a1562821051"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Information on the primary tissue sample processing
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="6652ea74-db31-443e-986a-8411fc7ab5b4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Modifications after removal from body documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="e558a80c-af3c-4ca4-8aeb-f84b51d4638c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f0a143f3-57c2-4c3a-b947-9475b929d72f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_022}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="c4fa505b-1b6f-4c56-861c-f9fa8271d010"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="5085e190-c711-48f1-8aa2-761d36b1cd29">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_022}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="603891ad-412d-419d-9890-1ab770beafff"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is the selection/use of transport containers performed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="d956848c-76a6-4e71-a1cd-8f44daec2d82"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="e5b54de1-5e7f-4fe7-8df2-f97f68b0814a">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_023}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="3ddc0148-f486-47f0-a0ec-d809a184a337"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="5dc87df2-7389-4a80-8d73-c9c3d82da11e">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_023}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="ef5c2cdf-9f2c-4ba0-8966-ba29e8e76e2e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Selection/use of stabilisation procedures for transport performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="bd9d8cfa-7d70-467b-b789-75a35a59c52a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="744c7a10-1522-4ebd-8738-bf83124ace85">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_024}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="66fa1c45-d704-46cb-bbec-8c7b78064297"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="8e22c8c6-4ba8-4868-809b-390be49f6694">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_024}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="ebffceb1-bd56-4900-a8a3-0f83a1fe4fb6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Labelling of the transport container performed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="f2c80b05-2f48-454d-ab3b-0bb0ad5d1836"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c9528189-946c-4aba-9d6d-55fd6fa3cda2">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_025}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6523df00-1292-4570-b6bb-6bdbe6f80407"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="21acc74a-7fa2-48d2-9337-9d66688a8749">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_025}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="baaa5b89-85b2-4b7e-9780-bc4f5f19537a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is it documented, when several aliquots of a single sample with different features are in one single container?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="2a4c104b-7a9c-4323-a4be-66433008ec04"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="0c5e6de5-7bcc-47a9-8f9a-43c4225c3dd6">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_026}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="1ac329dd-8db0-4143-bc03-a5812f207e38"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="d4ca00dc-2eaa-4245-8235-bc63841c976c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_026}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="e40f50b4-4a62-4fc8-ae31-c937d7cf169e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Specimens transfered without delay into the transport box?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="b8a4e5f2-566d-4c9a-9e40-4e232c663cab"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="9bc86043-0e1e-42ce-99cb-a1493732d8fe">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_027}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6d3bf41c-5bb4-49cc-9ef9-c42280e1b273"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="fcd3ba62-b28e-4ca6-9230-2bd2e1d2e003">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_027}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="13418aee-8205-42d8-a85d-e2fc4df9a242"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is the surrounding temperature of transport container during cold schema documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="c80a395c-d8b2-47cf-83d7-5e09ba48a7ce"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="be7acc95-8a4c-4790-a876-ef5c1b919100">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_028}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="d90403d3-b45c-48c0-bb6b-125c16e70b3d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="02c3c39f-70d0-44c4-9381-160574079f18">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_028}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="d021a6dc-51e5-44ff-ac6a-d799adee0c0a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Transport conditions
+
+  
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="86cf249f-1972-4acf-8601-e0c066cee068"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Transport procedure protocol established and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="9ac624d6-4646-488d-bf39-c305208fedd8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="63ebe273-c95d-4155-861a-09b08565a9ef">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_029}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="9b0ce307-cfb1-4628-b395-44e24216c108"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="a03988b7-12f0-4170-b8a0-93543f525bf8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_029}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="60" uuid="09e5602d-60b5-4574-abdb-2171f4794dbc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Transport of unfixed primary tissue performed on wet ice or 2-8 °C without delay?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="e54abf03-1e11-4df0-8322-dc68bfb6f30a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="58a615b8-3287-4468-bfa9-4ddafb927986"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="63f8e194-4340-4993-80e6-fcc686859412">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_030}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="c0a28db0-b29a-4aad-b929-27b4cf00d5d5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="82b1df09-12f7-4f16-a488-82aa145d77cf"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="d2719814-5c8f-4884-ae5d-d74e93eff570">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_030}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="398" y="0" width="80" height="20" uuid="96b0e2e5-e9ef-4d93-9e22-a36569422d1e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="e6c16ddd-ccb3-4ccc-8f8b-2ad503ff2a1a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="58c0e9e3-ce06-4860-ae49-431d5126cbdc">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_030}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="60" uuid="dfdc0ba5-d89f-4911-b8bf-f4942dd27f3e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Transport of fixed primary tissue not above room temperature and documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="ab2f57ca-ae16-408a-a721-a7d35a971988"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="48a2b8e0-00a8-4185-ab82-ffd37a25b841"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="67de241f-1826-41a5-a3ec-942a643b308b">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_031}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="968364a7-2e4d-494c-8c82-3003194033ff"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="dad3459e-6e4f-4e75-a0a1-4b5adf64d761"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="95ff95e1-9205-4018-a227-382b70ab8dc4">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_031}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="398" y="0" width="80" height="20" uuid="190cbde7-33a5-45b8-9aaa-d8681af24578"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="ce8c43b3-1551-4971-9ba0-13992f537b70"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="e39ee3dc-0e12-4cce-8fbc-28eb39fe5000">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_031}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="92556d26-646a-4bc3-a7ac-f0a149152ac4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Compliance with transport protocol documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="193ddafb-cf74-4439-bc1f-7c7cf8e5e510"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="7039586e-de21-4462-a97c-c44706f0e5b1"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="98c63585-5cc6-4cac-8c42-bf0deff79104">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_032}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="151" height="20" uuid="abdbadba-8638-4354-a0fb-935972141691"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No deviations documented]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="3e409243-1548-4744-abfc-69635e8c25da"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="cff87ad0-d930-4482-ba58-33d06070e5e7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_032}.trim().equalsIgnoreCase("No deviations documented")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="c1e7a04c-9e49-4243-bf4b-e2c869193f18"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Any deviations from the transport protocol described and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="4a2318b1-3a9a-4110-8327-6218c9314ebe"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="fa6776e6-f434-4df6-9a15-b65169c8ee73">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_033}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="9b02ed38-2550-48cc-9ae7-a8c83770f8a2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="0f3663a1-5c75-4159-8dc0-1c6fa422745b">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_033}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="2bdaf159-1775-4789-8b41-b27861290f98"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Primary tissue sample receipt at the laboratory
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="a565ddb0-d0dc-436b-a816-fd17109852e2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Recipient of tissue documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="41332e4d-1edb-47ce-a529-f913f7f48989"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="be461fbe-661e-46a5-8465-92d1656ddcf9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_034}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="c225e405-041f-418c-827b-cab88f07327e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="6a71d6ea-c450-45d4-8ac5-630dbc3e6baf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_034}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="da476b87-dd3b-44df-9519-919d62380d4c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Arrival date/time documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="3191b875-9524-4b61-b505-cbd4636cdd3b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="c9c305f1-290f-4935-961b-e749ee6eafc7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_035}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3291e16a-610f-406a-aaaf-424401bf5a2d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="55988df6-fc68-4b93-a91e-66a1c71e0898">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_035}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="6c866b22-4bb0-4538-a914-122f23e0b0f3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample arrival conditions documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="bf69d732-3413-44f3-b86c-b066f5b4078b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="54e622da-9646-4a67-8123-c3006253c33c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_036}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="ddf940f7-9abf-482e-a948-19241bf6fafd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="ea262987-2bf2-40ae-8690-d03499ceecaf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_036}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="30b6e5bb-77f4-4ceb-9d6a-f7fba46b0f44"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[In the lab: Any deviations from the transport protocol described and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="981ba73a-7105-4f27-82f1-bd616591a3ab"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="2d01f0fc-5622-4386-a994-4d761bedc3ed"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="9a367847-83a0-4417-8f4e-f694e42e80b4">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_037}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="151" height="20" uuid="e578dd21-37ca-483d-ba95-5b191166f518"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No deviations documented]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="1465abf1-ff23-43d3-9fb9-43b069a5cceb"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="6f71fc42-12fb-41ac-889e-f918a5ee415f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_037}.trim().equalsIgnoreCase("No deviations documented")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="1b5374b7-54eb-4592-9066-390eefa4413a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Formalin fixation of the specimen
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="270eec5d-5ae4-4d91-8402-f330b080768a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Type and specification of fixative documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="ed06dd44-c643-4d27-b402-855fd54e6ce0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7f02b290-fae8-43f5-ab31-8a0664c79d05">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_038}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="039d4316-aeb0-462b-af93-620beafbe176"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="554f7361-a7b2-4c2a-b256-1074c306251a">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_038}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="ce6f7635-3760-466e-a345-9bf80baf5016"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Standard Buffered Formalin Solution is used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="9d283996-663a-486f-a9bd-edf3fe9d81b8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="1b0f92ce-0697-4512-83f5-a31d101f9382">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_039}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3d43d72c-6241-4149-a379-167f659d2747"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e8be242d-99fb-4322-93bd-540f6c70a1d8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_039}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="3b4dbbc2-6772-47a9-a705-4de18ea1230b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Check of fixative stability performed regularly and documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="3da0a2a9-afb9-4043-b838-b1197ac05848"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="8eac4b97-0c7d-474d-a846-c3e95309bcdf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_040}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="63a75ff1-788b-40cb-858c-1cfa5a7185bb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="1bdd21d8-645d-4c18-99b1-7184c721048a">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_040}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="d04fbee5-061a-4aa2-8846-d13109139736"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Material safety data sheet (MSDS) of fixative read and applied to handling procedure?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="a2256348-58a5-4d5a-be9f-745312a3ec02"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="eaf39838-efe5-4061-8d32-26f898d28ddf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_041}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="57176156-0385-47ff-bfab-0cfe7ece096d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f646aaf8-b87c-4283-a58c-6d535229c178">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_041}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="0025d43b-cc99-47d5-b27a-170baa606f59"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Time point of start of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="a75f6c41-34e1-41de-aecd-2b8244cf6f23"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7f6fd099-331b-48e0-8bdc-3723968cabed">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_042}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a114bce3-0680-4d9a-b20c-689d689df495"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="18210a8e-20eb-4dd3-9211-a652322ffdb6">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_042}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="5b6853dd-c011-48ae-99f9-8985c556c7ae"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Selection of appropriate collection container performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="38d34117-95d0-4217-8989-03f96341996f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="3bc36cc7-befa-4d6e-aa61-f566448a627e">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_043}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="4ff559ac-407c-4fda-a98f-20b6afff8ee1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="2d3916e6-cceb-49a3-ad16-2e3a4bc15994">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_043}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="efb0e5ea-1df6-4247-9979-031dba6439a2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Formalin-to-tissue-volume-ratio of at least 4:1 (v:v) used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="17350679-e1ea-4f30-90cd-70bdc51993cd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="43fdaad0-44b8-4dd6-8870-7307bfcb5075">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_044}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="26208e60-f62d-4546-bb6a-36fd70de30c1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="dc08811d-c6c2-45b9-8fdc-e971078a855f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_044}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="86b50d1e-1849-49c9-9450-99d3967c6d1f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[For containers pre-filled with fixative providers instructions followed an documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="c263fcc1-85a4-4b1a-b174-27b6b4b25ce4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="a95d8d39-0d32-43e9-9303-2f02d40d611e">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_045}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="a2caf3a2-1b4f-42cf-a911-106d53866f5e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="3cbf23c4-9eaa-445e-8c7a-85a8a20902aa">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_045}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="19131e21-8496-496f-b11e-17860becdf7f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Securely closable containers are used?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="d48b1497-c5be-475b-a7c4-50a0e1912361"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="a332301b-64da-41ae-ba98-02c982b31192">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_046}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="44556b1d-cbf7-46b8-ac1b-6ea7ea54b984"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="cfc5bc4f-80d7-47f7-9e0a-b7aaa2ef3a9a">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_046}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="0b27191a-d93b-4b57-a0cc-fd7a5835a966"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Labelling of sample container performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="654599f5-4eff-4c61-89af-43cfb2f70fbf"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8beb0619-8486-4608-aee5-4288399ad9d7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_047}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="20d111c9-b028-471b-8460-c7f602616df3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="02dfb1c5-02b0-4dc3-b8d9-98c5f2d48553">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_047}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="09bf1836-dd94-4d7f-a327-6f2eb7b669fb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Labelling information contains: Donor ID?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="3e55af14-95ec-45a4-8e45-c2dc95056c44"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8cfe7477-5283-4e67-8d98-8d0f339cb079">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_048}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a1ae12e6-2c00-4bd2-bcce-a6f7d82f1f21"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="686e2bef-39f1-4797-8a85-76dabecfb58c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_048}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="0fa17dd2-a61d-4a1a-a612-cb208f340f8f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Label information contains: Basic information on tissue type, tissue condition, and related additional info such as affected (e-g- tumour) or unaffected areas? 
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="8ee88306-4962-4e73-8e8a-a3fd4690df5e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="4510672e-3977-40d2-8d58-7e8c1ec80012">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_049}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="72fcc58d-d5ad-4b21-b66c-ba09c32af1f1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="9eef8fd0-a1d2-42d3-87da-106207124025">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_049}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="f91360f9-8291-417d-9493-812066dbfbf6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Unique numbering of each container present and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="08b08cd1-1f46-4f9a-99c5-05f902236e54"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="5a83febd-93b1-46ce-92a7-35316e6bafc3">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_050}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="86617a58-0640-4a07-aa30-02b2ef395101"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4cd9d618-0ed5-4bcd-9cf5-49351e2ef807">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_050}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="184470bc-adeb-4c17-9bde-dc69a2c5d2db"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Types, quantity and description of samples documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="76f5f576-096d-418e-a9b7-da7b63621010"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="880856c1-1531-47e9-8354-411b2985a123">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_051}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6f422b4a-de8f-4623-b686-930064a822bc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c690747a-18c4-46f6-8ae4-7116ce1a8183">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_051}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="e4ecf778-1197-4a03-9df6-e7c86d2cc68d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Evaluation of the pathology of the specimen and selection of sample
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="2e41a60c-5942-43a8-8626-52bae405d48b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Evaluation of pathology performed as required by a qualified pathologist (or under his/her supervision or responsibility)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="f9eecb39-9600-4884-86e9-a08875303c93"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c375bf4c-7363-4725-a7d4-4fec0af5e7ed">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_052}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="7b84fa93-eda8-4772-963d-f7a82f9ff469"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="429cde32-b271-4f4f-a411-6dd5e636ec11">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_052}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="46ea7fdf-848c-48fc-919e-2cbe3092a01c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Options to select samples for protein analysis]]></text>
+			</staticText>
+		</band>
+		<band height="100">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="100" uuid="dad85871-a17c-4ddc-bbca-4754ba9db7e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Selection of appropriate parts of the primary sample for molecular analyses and histopathological analyses and further research purposes performed by medically qualified pathologist?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="100" uuid="9287c6a3-a767-4987-b49a-c89ec9681806"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="100" uuid="abe5b583-57f8-433f-8076-c5e8d03c66db">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_053}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="100" uuid="03c43975-7011-4a19-9790-b5e1bf987963"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="100" uuid="8a0cd738-a22c-4623-ac1c-b9ccf845f1b8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_053}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="76e9d0a6-29e0-400a-b313-ed1614ad8fee"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[For macroscopic evaluation before and after formalin fixation: Check of the clinical instructions, number, name and date of birth of patient and type of tissue performed?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="8455b3e6-bbea-48d7-b9b0-23484e1087fd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="bd3c4028-5ab7-4b77-ad4d-77dceb41b31b">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_054}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="945977aa-b12d-4f91-b1a0-90e5bdf95c6a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="e179b8f1-d64d-4e2f-ada3-694251726901">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_054}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="85bf7ff3-8840-4af2-8331-ee43b9d64706"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Description of the specimen and findings (according to clinical instruction and medical guidelines) performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="e59fc07a-335f-4d7d-89c0-b7b85e32d49e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="9d4fa343-e683-4471-b983-ebc22ce75fdf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_055}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="84b765b2-8feb-4b0c-b3b8-a0a1be92da40"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="34e708d8-f4bd-4524-bdcc-5d68258a2cdc">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_055}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="820c8deb-2f0f-44b7-972a-eaa03aef4e5a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Description of the anatomical localization performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="ff7844aa-da74-4448-818b-29781ae09616"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c797cf89-25ff-4df8-872b-f20910373cc7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_056}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="4720a49a-d0e5-4e4f-8464-d93aabcb8b07"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c88de725-fa5f-428f-961e-78c271d5b8e7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_056}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="a5ee572a-e0e9-42ba-bc99-931b027e7820"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample selection for microscopy according to organ/disease-specific guidelines  from the representative medical societies, performed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="cd7b2317-fb3b-44f1-9c80-1a10a7c181f9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="3d5c2b4f-1aea-42fe-8d87-0ea056a88cd7"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="feb93afa-80aa-4b06-8789-516bc43caccf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_057}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="bb9c220f-7c8d-4b93-95f6-e4fedb28b541"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="2d200095-0362-4b94-9cc1-3c37eb773b8e"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="82beb001-9350-43c5-b76d-9f319cb91958">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_057}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="398" y="0" width="80" height="20" uuid="c5c376e1-f75a-44a5-85e0-1dbcf39eb627"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="4a55f003-20bf-4a1f-88da-8e6636d75c8c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="478" y="0" width="20" height="20" uuid="6a96da21-4dfb-4896-910a-f78b92dc1377">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_057}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="36122915-db22-4932-bf4d-ab93e6b81768"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Tissue removal for purposes without the need of a histopathological diagnosis: By a qualified or non-qualified  pathologist?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="04c546e4-e8d4-43d6-8b04-74331fc6400a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="69032996-d556-45e1-9b76-a58d9c33d4c7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_058}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="aa4b44e6-97b1-44c3-b191-a085c170f76a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="70d65428-44f0-460e-b5c0-2d99ea1cd1d4">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_058}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="aace0e54-13a5-487d-af97-92326247b866"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Appropriate sample size for tissue cassette selected?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="cd72fa18-e96c-453c-a59f-f6a99ab7bea4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="91c36f04-ed1d-4789-88cd-a63da25b5fb9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_059}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6cc954c6-7712-4f46-b9b3-6f666d567b2f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="63938b9a-c755-4ea0-871a-92b43b5b811f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_059}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="b3128c1c-17f5-4896-a0df-19ebdce22dbf"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[For unfixed samples that go for F/PFPE: Timepoint of transfer of sample into cassette and immediate start of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="f9307d9d-a45e-437f-83d8-64e8725b83c6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="a4957dc5-a518-4f26-9b00-4022eff2fa83">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_060}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="b5ce18d1-0368-4f34-b922-bfe66e172213"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="6db3c598-96a0-4279-b8fe-5949eccf55af">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_060}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="332aff79-ad6e-45d4-bf03-a07c5d0054be"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Unique identifier for tissue cassette labelling used and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="87ae0215-3e9c-46d8-aef7-09ce95bfede7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="cc46edf4-5d7d-4c5d-a7c4-6aa42c0991fa">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_061}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="b66c4737-e077-4f9a-930e-0a0257efee78"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f600aec1-4411-4080-bb83-cb0e74ffa515">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_061}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="d3ab2133-cd5c-40a6-a351-92f752061720"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Types, quantity and description of several aliquotes on a cassette documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="eb5ea5b0-4ce3-49eb-96c5-7c69e4863a15"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="1d5415db-888c-4fa5-8df6-83e7b23add81">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_062}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="b1206a13-2949-47f0-92b7-1ee2d20ce6b6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c33ad351-9703-4c7a-b67d-f110fc4be334">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_062}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="5e009b3d-c7fe-4ec6-a7db-7e67414fadbb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Timepjoint of transfer of sample into cassette and immediate start of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="676e19df-b758-41f0-80cb-0f5c2007b1df"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="d58dff70-ed50-4e46-b11e-7eb63ff86a68">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_063}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="37e47b2e-4208-47c9-82a8-abac83f8b7d6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="894abcc1-5480-48b4-a242-723de31200b1">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_063}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="922a5835-f39d-425f-b4db-9a5b7ae75970"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample placed into standard buffered formalin solution without delay documented?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="ee357201-39c5-4bdb-a896-811a57342bcf"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="62bae9cf-1464-4632-a371-468b3bdd5ce3">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_064}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="442f6c49-727d-4578-b4a6-725ed6c243f3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="c2873259-eacb-4ea2-b9c0-74b59037fc57">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_064}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="dc8d9340-dbed-4826-9480-7d9f94c3ca18"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[After fixation, placed into alcoholic-solution?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="a3cea6c0-453b-4416-857c-4aa4169df8ca"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="0fcf26c0-5f62-4857-aa85-c018632b640a">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_065}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="0189be2f-748c-445f-8684-eabe42a5d776"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="647685eb-aac3-415b-83e4-013552657663">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_065}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="bc4b7ab2-9d8c-4f6b-b03f-72bf86cd47b1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Date of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="98a0bff0-c6d9-463a-9f15-7beab246352c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="dab68b5b-636e-40a2-99e1-d108f04b8a9f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_066}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="09bcbc3f-469e-455b-b5af-bdcd84314b6d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="1c1c2957-24bb-4481-9029-ceeee946e591">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_066}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="0a98fb79-a815-4e64-b6dd-e8bdcd8d814e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Duration of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="277c711c-3bbe-45c9-aa50-ea8bdd13dd6f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7bc7bbc0-f496-460f-ae53-47c10a05c3ac">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_067}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="ca8c68ca-2a0d-4ad5-9b51-1769848b430a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="af73ffd7-8087-4a7e-9ffd-745b64142737">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_067}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="7219ddd0-cd87-454e-b839-04d62af2365f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Temperature during fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="1ca487dd-e7d0-43f9-8d40-dbc2d85ff590"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="d765b7ae-c628-4552-8c2d-d5ce5793dcc9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_068}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="4ad3d13e-be9d-4489-bd5b-3a2589e20f2e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="cc1b181e-0d14-47d8-a0bf-6fca046e4bc1">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_068}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="75bcf14c-5b41-4553-bd52-66fc9c48e861"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Post-fixation of frozen samples
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="283a5b55-5190-4963-a70f-44f5ac2d50fd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Total formalin fixation duration documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="cbd9d776-2b49-439d-8d96-321dad5088d3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="b0656d00-41fd-4af9-9899-d3d1d070a10d">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_069}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="c3812802-dc67-4819-900b-c5fe11988d85"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="aa639954-f528-4ddc-832b-7ad59dc02d16">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_069}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="478b02ad-76c1-4d0d-ac07-bc89f8a2b7c3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Time of duration of fixation documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="227efbed-0cc4-4f0f-bcbc-1022726831d2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="db4d5101-bc87-44e7-923e-22d94a7b21d9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_070}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="0651ec68-fd79-496b-9c62-f1eadcf66497"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="dee455b8-665f-4537-93aa-f8b1a1bde207">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_070}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="80">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="80" uuid="aefe4eb3-bcc7-48ba-8c1c-be457ced4f4a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Formalin fixed and paraffin embedded tissue was generated from a frozen sample?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="c9921b2d-bacd-4cc2-b356-0ab02c779293"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="820bbecd-08d6-4231-940f-66a753837af9"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="0161d4af-5103-4bf7-abf0-0878b34b741c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_071}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="be2a57b7-da04-4032-a256-0900a8dd992a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="2af4eac1-ab78-4128-ab39-0f0d9edcf3b6"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="3ae6e69d-6ad4-4a23-b561-57787c68905f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_071}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="322" y="20" width="202" height="40" uuid="c4c21abb-a850-47ae-b246-af4c36335793"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable (sample was not frozen prior to fixation)]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="1fa059b5-f16c-469f-9ef6-c9ccdf78c4bb"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="c1961adc-e812-46b4-a5d6-9b2f89a809cf">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_071}.trim().equalsIgnoreCase("Not applicable (sample was not frozen prior to fixation)")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="8f1a7428-f07f-40ad-841b-19927a4c56bd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Processing and paraffin embedding
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="e615935c-d867-434f-8013-dcd157d3366e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Date/time point of transfering from standard buffed formalin solution into alcoholic solution documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="7de6f809-0e0b-43ae-9c3f-7085d2fcb9bd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="d5baad50-807b-47fe-b1ce-e30c939a3594">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_072}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="32e8192a-41a2-4ce1-96b0-79dbfabfcf7f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="138f3580-85b8-43ca-a561-2cf97c8506cd">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_072}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="f3e92903-44d5-498b-8f71-8f6af60ced90"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Processing in a tissue processor/embedding machine performed according to manufacturers instructions?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="78d94c46-6db5-4874-8f6a-3b6f782abe5e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="43ace20b-b3d9-487d-92f0-cfce05069ed3">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_073}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="c2d7cd2c-fd5f-4384-8785-37f5437185bb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="5e74082c-2431-4678-a8ae-a841f10e1aa4">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_073}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="46da70fb-d02a-48c9-b3f9-f35c92510c8f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Replacing of reagents on a regular basis (according to manufacturers instructions) performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="5c38aad0-19a3-4151-8c87-a2f2f94097d4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="2358bffa-2bde-434f-968b-e868b0600dd6">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_074}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="e7170016-544c-415c-b6c3-7b0138aaa2f0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="872887eb-b21e-468c-aad3-885ee4fe1f70">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_074}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="daa88771-0d51-4af3-9c71-5e2c5015d545"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Paraffin of appropriate melting temperature used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="ab66a05a-a8b3-4adb-959d-429dda0dbfd8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="8ab9fe9a-ceb8-4423-9a4d-20ebe4c23358">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_075}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="eda350ce-810e-43d6-bcc7-837d326e1798"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="070cd0d0-dda9-4f19-89c5-ac870921d75c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_075}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="80">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="80" uuid="b4eb9460-e56d-4cc3-9a49-4c63c23ed050"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Duration of embedding steps on validated protocol performed and documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="f6c935c5-7d74-4bb4-9eec-39ecebbe77de"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="3ac5d00a-cb07-4172-8568-b925d4fc55ae"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="6b5958eb-11ad-4038-ac71-26cf623198e5">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_076}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="34bb0081-4f15-4bd9-94be-70eab9d7f3e4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="8d5c8d9b-0fdd-4a0d-8acf-017b0e82fabf"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="cbbf3d70-68d4-4853-910c-a9db233222f3">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_076}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="322" y="20" width="202" height="40" uuid="92542653-45c9-4e4b-ab65-27754346aaf6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable, manufacturers instruction followed]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="8caebe66-86c2-4e35-b9b7-0469ba7491af"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="20a61edd-6fd3-42e1-ad26-4448fa0a5fd8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_076}.trim().equalsIgnoreCase("Not applicable, manufacturers instruction followed")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="139ffc85-9e4e-4659-a33f-e268bfe848c1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Applied protocol documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="2bb8ef51-2460-4e83-b39c-6a243a0991a4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="d035132e-f557-4fe2-81fc-59dd2774ef90">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_077}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="8d64074c-3f13-47a9-bd7d-474c9e11715b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="28f45a3a-9684-410a-9c33-759cacadf086">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_077}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="aec635e1-73fb-446b-b89b-f6961f128c9e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Storage conditions
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="fd8049dc-4abd-4d1d-9037-0abba41ac21a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage of paraffin blocks is performed in a dry place at room temperature or preferably at lower temperature? 
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="75164c8f-cd08-485e-ad8b-944307a9b377"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="05c18f87-96e6-4e84-8a3f-a530713f5c6c">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_078}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="d097fc91-b3a6-4eee-9799-5d5d1d249863"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="43d1904c-d42e-468e-a3e2-37c925e72d57">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_078}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="319b5e1c-228e-4cc3-bbcb-d654029616c3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Archiving system for paraffin blocks in place?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="88623d41-16d8-4b5f-adac-66e9ddbf1de8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="83b47029-9b29-4ae5-bfb9-78559e6e9746">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_079}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="c76d3ac2-aadf-4d8d-aed9-3b9e57a86e60"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3d719bab-d3dc-4b3e-8aaf-2ab1ce4c6402">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_079}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="fc387520-28d9-492e-a342-15624eac38a4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage position, temperature, and sample retrieval (date, time) documented?  
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="912a96fa-98f8-4211-8329-9cfc520cff7b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="2d94f2ee-6ed6-46a7-8119-17e62b12893e">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_080}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6b8ae52f-f50b-4190-a8a3-de23cc851eef"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="1a1295b0-f3a2-454e-8030-fc9558c8d74f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_080}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="2a0929b1-fa5c-40bc-a00f-838b8c1f4338"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is total protein isolated at your biobank?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="25" uuid="96daf556-b8f1-437c-82df-df4f31e306a1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="4dfa200f-f371-4b00-9e1d-3272901f3210">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_081}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="25" uuid="faef0357-0df5-4141-800c-8fd683ee67e6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="b84aac49-3125-4604-a8db-1cd7494c2171">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_081}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="455769f9-0beb-4f3b-b5d7-db1d8297ba4c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Isoation of the total protein
+-
+General Information 
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="d8638ac5-128b-4b61-92aa-001e7f63314e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="97acb1eb-f216-4eae-8437-440cf7ef3c54"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="cb0bef61-f5b7-437f-8408-ce9e6f94e877">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_082}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="8ea52281-4c35-4247-94eb-cedd13e78049"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="1534f8a0-d467-4ced-a2a5-583cc19a4077">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_082}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="ac310277-1b6a-478e-8a65-c97d786ae813"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Histopathologic characterization performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="2c1254ff-916f-426d-9eec-10887495477d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="53c5e031-c334-401d-959b-23e9bc9712a6">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_083}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="67003a7f-683b-4bb4-8879-a7540789f451"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7cb2a655-703e-4d02-90c9-ec968bc1e099">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_083}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="1d0c48ed-16f6-4454-9260-48bae87d1a30"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[FFPE tissue with fixation duration of 12-24hrs for 5mm pieces in standard buffered formalin solution used for protein isolation?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="7d0fb761-7340-4e66-837a-13325413c645"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c824d215-3e89-45ea-b3ec-566a7310c0b7">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_084}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="519c8460-1bdb-4acb-bf93-6a4f35564e4b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="9a37f916-a548-43ac-8633-973221497955">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_084}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="c3fdc858-8a4d-4aa2-a967-6629ba8e3141"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Freshly cut sections (up tp 10µm) from trimmed FFPE/PFPE blocks used for protein isolation?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="30ce4444-9190-4d90-8851-645818f74c2b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c017c9dc-5b02-4450-8089-a784afb1a509">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_085}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="87569be3-4a3f-457f-a4e5-752510252218"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="4cf74aec-1e7c-4575-bc44-9a66c28bb783">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_085}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="d540d435-3a74-4bc4-af41-fb7d3de46b67"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Parallel H&E sections to identify, select and control dissection of unstained specimens made?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="cc989182-fe80-45ce-9093-525fc28f8908"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="3a6418f2-9909-4bf6-be6c-aa3c37ae7676">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_086}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="a9bae4ac-6c63-41d5-93c2-4203f3a2b57b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c98176f4-ec8e-4e6b-9426-982044c0ac19">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_086}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="74a282fb-da81-4b75-a64c-755ca53e067e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Process from protein isolation to final analytical test validated according to internal QMS?  
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="1cb606c8-2420-4ae5-b111-1d46a7e0d171"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="04afaab6-b40c-4336-ade2-2fa217d88cb3">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_087}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="cdae8698-5e55-468f-b7f0-a2888a64af9a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="372802d9-8be7-43b4-acee-bdb1dc164fc5">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_087}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="60" uuid="27c8fd76-bda9-4f6d-af31-454329f428b1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Which protein isolation method is used?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="83" height="20" uuid="e9b6fd82-5896-4c1a-ae6b-e038b9e69aa9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[commercial kit]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="405" y="0" width="20" height="20" uuid="d629f20f-7718-4c13-b974-11983e766e33"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="405" y="0" width="20" height="20" uuid="38477e33-2d09-4fed-bd3a-2ce8fd7dbd03">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_088}.trim().equalsIgnoreCase("commercial kit")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="322" y="20" width="145" height="20" uuid="24ef393d-8b81-4d97-82bb-d04f3840fe22"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[laboratory's own protocol]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="467" y="20" width="20" height="20" uuid="0496f1f3-8e83-4433-8c2d-8bc6082530d8"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="467" y="20" width="20" height="20" uuid="f486509a-247b-4273-86dd-a5401197eb97">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_088}.trim().equalsIgnoreCase("laboratory's own protocol")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="487" y="20" width="25" height="20" uuid="e5fef62f-c1c6-40a3-bbcf-04e6e2b1ab46"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[both]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="512" y="20" width="20" height="20" uuid="f47876e2-b77c-4118-bb77-ef2a1fac6c9b"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="512" y="20" width="20" height="20" uuid="0f7cbb4a-1ad0-4fb3-b3e2-b97ef5dcfd0f">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_088}.trim().equalsIgnoreCase("both")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="acfed8d9-0552-4d90-ad5e-17fa57556c43"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Using a commercial kit
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="a0f22ad9-fcc9-451d-906d-83c04390003f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method (kit) documented?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="918155a3-760f-412d-88ff-1c91b8ba82d7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="fd217064-26a1-4b02-8e61-fe3d2ba18fe4">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_089}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="9bb26b3b-139b-4e41-b557-b76fee4207f0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="d532c2d9-ac12-4c04-b6e0-2eb2a10c8765">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_089}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="858407d2-40ed-4aa1-9129-0b61d12dce4c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Manufacturer's instructions followed (or deviations documented)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="5515546f-37bd-4071-a4c7-c7e625ca971b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="a345883f-eac4-4f9e-92c6-f9db1ab345d1">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_090}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="a9639625-ee3a-487f-b710-5c9ffbe27a31"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="2ae94869-6cf7-4fdb-9949-137abe030846">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_090}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="cd7f3588-c4d9-4a32-96e0-e2e443daa137"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Using a laboratories own protocol
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="d57a2efc-759b-4c4a-a211-86a0de074169"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method validated?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="71958b46-1a14-4609-8fcb-d09249916f07"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="f25ef521-ebff-4935-85eb-3048f09c540e">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_091}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="7bb54597-5aaa-425c-b0e3-0ebf9c378e40"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="a96d4c99-1ff3-460b-82b6-228ee4d34c23">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_091}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="405b659d-0c7d-4ce7-b43a-b293524b7140"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method followed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="2dcd7a36-2f9d-42cb-8e6f-2e61e04f026a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="6fef4c02-1b70-4ebc-832b-1112e9c68093">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_092}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="1e1c26c3-400c-4767-97f7-132b782ed721"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="860e7c4a-7a5a-47ff-9bec-3129b8ad0be8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_092}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="16ff1dac-50a5-4822-9487-448e6ec2decd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Measures to reverse formaldehyde modifications applied?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="1667c0ce-1911-42a8-b372-72175b8c8508"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="100ffe2a-705c-494e-868d-966174e64ccb">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_093}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="1008ce84-16f8-4d89-bc0b-aed843897a6e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="dcf74537-971f-43af-b6ad-5bf008b5c468">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_093}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="2e49f92a-e321-4b04-a78b-04f337794517"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Products from different manufacturers have been tested together and validated?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="a79b5231-a217-458a-9583-d58925c7f867"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="0945c05e-a734-452d-a378-d34224d90460">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_094}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="cba1b0ed-0373-4197-bb23-d23902de3df9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="dd839de1-2308-42e7-9da1-2ed7b4dfa124">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_094}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="40" uuid="c93f94a0-3068-4c94-9032-b413887b848a"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Procedures from FFPE tissue sections directly onto a glass slide, protein isolation includes the following steps:]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="94b8f220-3042-48f1-8dd7-9e8a64a36725"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Preparation of the sample by using a microtome a suitable number of 5µm to 10µm thick sections?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="48ab52e6-6135-45e5-9af6-baeafe3c1ba5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="a2db2b62-48ae-42e4-a046-a20de76855a8">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_096}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="b3da2945-8d14-4d5d-b802-21d7fa330281"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="aa94bc42-7a83-47f7-9ab2-e64cba9ade30">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_096}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="28aad5eb-20b9-41e8-bda1-ba0f279c5c55"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Routine deparaffrinization and rehydration steps used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="60f74b4d-f65a-4c0c-b5c8-7a198865d016"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c8821dfe-ad16-4514-8162-21af9b080403">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_097}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="4fc120c2-7322-4fdd-a86f-44782497d193"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="36946cb4-3344-4d7e-98d1-e41710df6feb">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_097}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="55833217-9124-4544-b1aa-150572664514"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Extraction of protein from a reaction tube (sample should be boiled for 20min, incubation at 80°C for 2h, centrifuged and transfered into a fresh reaction tube) performed?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="e201d181-d541-4fb9-90b8-ee3102af9e25"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="0c5b45ad-be72-4c34-b214-74ec2fc50962">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_098}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="705ed887-270f-4153-a661-16800597c60c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="626481e6-9910-4d08-a31a-74f7960b1754">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_098}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="a4674517-f736-410a-9a99-f326ec04cce4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Quantity and quality assessment of protein
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="f51cdd3e-9ddc-48bc-9c9a-46a64420e1fc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein quantity and quality by one or more of these methods checked (according to manufacturers instructions or validated protocol)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="ed23240f-fdfe-4ca2-aee3-a751ba99e8b7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="b32a62d2-c767-4a67-ad16-598a71316f60">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_099}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="a0618e88-e9ef-4a2f-9081-b380c7bdf70b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="e033e0f3-03e1-4fd4-9892-6716ab864d12">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_099}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="5c5f49a2-5269-403a-862d-1000f073086c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Storage of isolated protein
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="c10011bf-8114-4755-bc5d-11f7202b7a19"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Laboratory have verified procedures for storing isolated total protein?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="e956e465-01c7-4f78-a636-bb550cc1c5e7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="a9f12eaf-989b-4be2-864d-cb233ab596db">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_100}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="985ca68e-0471-466d-9cf6-4e0523a9265b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="02dfd9db-5a11-42fa-9bed-5cdd02b0987b">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_100}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="70428d49-42d9-49bb-9d56-4c78ae50c018"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Kit provider instructions followed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="d819ad62-0073-4187-a10c-a1e2a1f433af"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="61118327-4e85-4185-a1c2-4143568cc840">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_101}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="e5b8b64a-3f0e-4425-9027-091b3d797ffb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="4f085191-5a52-4552-9719-6cbef637e788">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_101}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="11ede3a2-ca54-4757-b996-81bb36638f66"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Isolated protein assayed immediately?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="9c273c3c-bbc3-4140-99b0-b1fdb8cb25e2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="c940f28e-3350-4d3d-93c0-a0341e2628ae">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_102}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="cd0b0f9b-d9d1-426d-a7e0-33996b3a40d3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="38d24595-f8ad-4c46-aab6-0c6b52fa2bc0">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_102}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="b7572226-3dff-4cb2-8b18-bd141b15c43b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage for archiving purposes at -20°C, -70°C or below?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="42c14172-6487-46a2-8517-831e2546e3b8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="706894b0-69f0-4f5b-91a2-3010f92e8520">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_103}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="aee1dd48-bc2a-4cf3-959d-6c8463577019"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="7e6db555-9aed-4c23-bff5-87de3cc88881">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_103}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="2ea803c8-c8f4-4bb8-ab17-a04ded2dd5c0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Appropriate storage vessels used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="31bb96e9-ba3b-4549-b0e0-6c47212de670"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="c515ea27-ebcc-4290-b963-d9e5475bcf64">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_104}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3f9457c4-6e93-4202-957c-f109d9941d5e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="43af219c-69a6-4e69-ba78-822400bc12ac">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_104}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="1bf4d088-3dfa-464d-8602-4ec5b460ad98"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Each thawing and refreezing documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="b9329eae-caea-4ec8-b37b-65c21fd64ee9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="40be15a0-3dc8-4026-bdb2-1c0722c943c5">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_105}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3af1ba32-eca2-4607-8bef-d2f6c803ec80"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="2aa79065-7aaf-4c31-8efb-b028581857c9">
+					<printWhenExpression><![CDATA[$F{ffpe_proteins_105}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="141f2456-874c-4e59-9c64-544e0aeade82"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Do you want to submit your data to BBMRI-ERIC?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="af39896a-52d1-4b5f-b983-5201f104f4f8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="0ef1debf-0684-4e8b-bfa2-e664185f8647">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="e9f7c41c-20b3-4c54-a88e-41c55fea17d2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8c7e235a-de6b-4f7f-a9f5-b4aeaf71cb54">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="591d6bda-c1de-40f5-b168-f4883144fe6e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Additional Notes]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="4f746163-01e0-4aec-bf0b-033111436d23"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ffpe_proteins_106}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

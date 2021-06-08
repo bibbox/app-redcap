@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Metabolomics - Urine (Version 2)" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="2811dae9-555c-48f7-b875-00ce54d4847e">
+	<field name="record_id" class="java.lang.String"/>
+	<field name="metabolomics_urine_003_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_004_v2_v2_v2" class="java.lang.String"/>
+	<field name="contact_email" class="java.lang.String"/>
+	<field name="metabolomics_urine_005_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_006_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_007_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_008_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_009_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_010_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_011_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_012_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_013_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_014_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_015_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_027_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_028_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_029_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_030_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_031_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_032_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_033_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_034_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_035_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_036_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_037_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_038_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_040_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_041_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_042_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_043_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_044_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_045_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_046_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_047_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_048_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_049_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_050_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_051_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_053_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_054_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_054_v2_v2_a_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_055_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_055_v2_a_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_056_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_057_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_058_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_059_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_060_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_061_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_062_v2_v2_v2" class="java.lang.String"/>
+	<field name="text5_2" class="java.lang.String"/>
+	<field name="metabolomics_urine_064_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_065_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_066_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_067_v2_v2_v2" class="java.lang.String"/>
+	<field name="metabolomics_urine_068_v2_v2_v2" class="java.lang.String"/>
+	<field name="eric_submission" class="java.lang.String"/>
+	<field name="metabolomics_urine_069_v2___1" class="java.lang.String"/>
+	<pageHeader>
+		<band height="143">
+			<image>
+				<reportElement x="0" y="0" width="595" height="113" uuid="952149c4-5b47-4706-aa39-45ed9eb30267"/>
+				<imageExpression><![CDATA["banner.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="103" uuid="f68d4b34-89c4-40e2-93d5-572e57dd2de1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="14" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[<font size='4' color='#004280'><b>REPORT</b></font><br><font size='2' color='#004280'>SELF-ASSESSMENT SURVEY<br><font size='1' color='#004280'>Metabolomics - Urine (Version 2)</font>]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="f4d6b042-dc3d-496a-acf4-45f99c07fa3e"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Record ID]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="247" height="25" uuid="dd98396f-c049-48e6-9ba0-28a554b56162"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{record_id}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="90">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="90" uuid="547d85d0-60bb-454b-942a-33a1ef6ead55"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Molecule profiles can change during primary sample collection, which is why transport, storage and processing may influence research results. Standardising the entire process from sample collection to the selection of appropriate analysis methods is therefore crucial. ]]></text>
+			</staticText>
+		</band>
+		<band height="120">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="120" uuid="49238e97-3201-4a25-8e06-acdcac7613d6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The European Committee for Standardisation (CEN) published Technical Specifications to determine influencing factors and provide recommendations for the handling, documentation and processing of urine, venous plasma and serum intended for metabolomics analysis. (CEN/TS 16945:2016 E, Molecular in vitro diagnostic examinations - Specifications for pre-examination processes for metabolomics in urine, venous blood serum and plasma. For further details, please visit the <a href="https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_PROJECT,FSP_LANG_ID:41043,25&cs=1CE752334307E5685894785D5735AF776" style="color:#004280" target="_blank">CEN website</a>.]]></text>
+			</staticText>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="60" uuid="a569a276-d636-459d-ac2e-861acdca8883"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[This Self-Assessment Survey will help you to assess and improve your sample processing.]]></text>
+			</staticText>
+		</band>
+		<band height="90">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="90" uuid="683eb3d3-e71e-4b8d-b83f-9ccc6a830901"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The questions are colour-coded. <font color="#ec6607">Orange</font> criteria are <font color="#ec6607">'shall'</font> criteria, i.e. meeting them is a requirement. <font color="#004280">Blue</font> criteria are <font color="#004280">'should'</font> criteria, i.e. meeting them is recommended. Making true and accurate statements will help you get genuine feedback on your sample collection procedures and, as a result, improve certain processes in the future.]]></text>
+			</staticText>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="13b80c36-fbad-45e9-abc9-0e2c614fa9c2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[MAIN CONTACT]]></text>
+			</staticText>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="a2f0e1e3-0bc6-4c79-9770-9fad5404e53f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Biobank]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="7efa6af5-dff4-4913-a6bd-256eb16c5680"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_003_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="e707110f-4bf6-42da-9603-ebbc1e8d30ac"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Name of contact person]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="5254cd6d-573f-4dc6-88db-bd588b90c8e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_004_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="0fb503e9-c131-4f4f-ae9c-b3e2758388cf"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Contact person's email address]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="f25c0dfb-e4b0-4f98-8fff-266d4d831458"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{contact_email}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="aa74af53-4cb5-4f8e-a473-e8dfa801bf42"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="a7fea6af-efaa-4ae8-a533-e1f0c22fb46a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_005_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="46ddf08b-c505-4b18-bb4b-3be5a07f9863"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[ZIP]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="106e4a25-f693-4bcf-b820-4387c3b98b9d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_006_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="c4dc32b4-aff6-4f76-8e88-4549de70a210"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[City]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="40966e66-6d89-4c68-b6d0-d79d50952365"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_007_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="b36f165d-ee99-4d1b-8f6b-e98a530e7e21"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Country]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="c33b4816-c1cf-4097-962a-7021c5aaf835"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_008_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="5eed9ae4-d99a-4ef9-8a75-007c0981aac5"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="89c5e840-2c5b-4f44-97bb-4bd0b52fced7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_009_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="21f4a5fa-8c60-4d94-806b-f5fd6d6b9fef"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[OVERVIEW]]></text>
+			</staticText>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="696e9723-48c5-4137-b090-dbd25216b678"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Biobank type]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="510e30ca-5dcc-4a1e-86db-5c1eda9fdc90"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_010_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="c06dc431-72dd-41be-90f5-b81acc15cb4f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Collection ID]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="4c3d826d-89cd-4fa3-9d49-59125989c3e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_011_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="9e182047-8c2b-4ec0-a1b2-8df3346e9f7a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[How many samples does your collection assessment include?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="cab8ec9f-a915-4a9b-bd5e-aa63e0418e42"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_012_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="f88de6a9-ba38-45fa-bcf4-c442cd1a3985"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Which ICD-10 disease code is allocated to your collection?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="f0cae209-73b6-46e2-be80-e89e1e5d0f97"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_013_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="95981fb6-b13d-4a86-b258-36bb869f50b1"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No specific disease code applicable, samples from the following sources were used:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="f557290a-5eff-4e3c-95dc-daf78d95a29e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_014_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="187" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="187" uuid="23cc471b-29c0-4906-a635-5eac64994946"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[BBMRI-ERIC Partner Charter signed?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d06e9095-2935-4ee3-9f5d-e1b9e2c56ccf"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="ab7177f5-13cd-49be-be0b-87476e4428bc"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="b93a074c-5000-4f4f-8ac2-0a7a066d3b23">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_015_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="fcee82e3-46a5-4e1b-98b0-2dbd15837858"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="c2215101-4644-4437-b74f-2b308c33725b"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="bce0da80-df4c-453f-9d22-9404591686bb">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_015_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="3ec6313e-fec3-4f2d-83aa-11156768574c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[4. GENERAL CONSIDERATIONS FOR METABOLOMICS ANALYSIS]]></text>
+			</staticText>
+		</band>
+		<band height="195">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="195" uuid="b3a4cbed-c5b0-41ed-9bb5-a994d3679074"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[General specimen collection and handling (including avoidance of cross contamination) see EN ISO 15189:2012, 5.2.6, 5.4.4. 
+<br>
+<br>Consumables and kits were verified upon use in examination see EN ISO 15189:2012,5.5.1.2 and 5.5.1.3 
+<br>
+<br>All steps of a diagnostic workflow, comprising the pre-analytical steps, stability, storage conditions and analytical steps, were verified and validated EN ISO 15189.
+<br>
+<br>Safety regulations on facilities, transport and handling shall be considered (see ENISO 1589:2012, 5.2.3. and 5.4.5., and ISO 15190]]></text>
+			</staticText>
+		</band>
+		<band height="86">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="86" uuid="5c583066-2265-47b8-bdd9-94d5ae99a370"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.1. Urine collection 
+<br>
+<br>5.1.1. Information about the primary sample donor]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="e90a4ddb-96cf-488e-9164-4ddf21f94187"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[a) Donor/patient ID was documented
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="c7b6b927-c518-4373-9d49-83ad11210486"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="da17d62b-bc51-4da8-992e-a47cb7265edc"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="fc718be4-507c-447d-a029-21d7b6b70a21">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_027_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="0a9b8a71-6662-4294-8680-b374d76eaf27"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4622d68f-de8c-4a25-90cd-35e88e64f745"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="3a6ccf77-3b31-4ac1-8eac-de64eb8b5eff">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_027_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="2145525e-1006-4a28-828b-f3a574111a0d"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[b) Health status of donor/patient and relevant lifestyle factors were documented
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="366f975c-ee81-4203-89e6-2a3d237e48ea"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c00b000f-0a7c-4a5d-9d43-0d9f02518282"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="35edcd13-0749-457b-9f06-3a8d5ba19f6c">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_028_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="40575f62-c7a8-4c5c-a5b2-3224829e1110"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="19e960f4-c833-4d0d-adab-90d36fe5c368"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="a4656940-118b-48f4-8726-7b706e44fa49">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_028_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="8339a81c-68de-42ae-91c1-58c66b041ac0"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[c) Routine medical treatment prior to urine collection was documented
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="c50a87ab-5209-466d-b708-bb94af881ebb"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="969e022a-06f2-4292-a924-0a2e0fefa0ac"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="15285f22-82e2-4e28-9a4d-226df1a73358">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_029_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="6310279a-ccdd-4826-a5bb-0d2a7ff33b30"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="5c2f131b-21e6-4e5e-adc7-bd8a579e7ce1"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="ff4ac0da-7df3-4ad2-afd0-89c14556fe00">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_029_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="433a5901-8742-4c9c-b6aa-e17fb8b2de60"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[d) Urine collection time was documented
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="ff93eb7e-114c-40e8-86ae-2473658daa03"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="d7a947bc-be75-416e-9787-375350d553b9"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c3783af3-ed63-44fb-b82d-d881ce1b645e">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_030_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="db8dcba0-23c1-4331-87ae-853a69bd440f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="3e305c42-27cc-4e7a-a8dc-f73314ea7201"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="2ab15ea8-c422-4dc8-afad-3b10abf7b41e">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_030_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="bc8f3157-d8ac-45ea-9582-7ed4a1380ffc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.1.2. Selection and labelling of urine collection containers    ]]></text>
+			</staticText>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="fcdf6dab-59f3-479d-8b7e-1810fbb42f35"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Appropriate use of the urine collection container was defined by the laboratory
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="1737bd02-c6ea-4b89-99b3-db99c7aa400f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="3d6a4654-80db-4794-8d0f-8c4cb9bb4448"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="f56d365f-b2ad-4ae5-b6a5-938c9afbf9f8">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_031_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="cb984f38-f152-46d4-9a9b-74e7ae90569a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="2e274648-97cb-4f0b-9679-6804a960ba9c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="d7a5029e-512e-4f68-aae5-0f47cf70c837">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_031_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="80" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="80" uuid="0422ae77-5f5e-4a82-8f1e-c0b83a348ec6"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) If the urine container contains additives, their impact on the analytical performance was analysed
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="209" height="30" uuid="5dd480dc-9af9-4dd7-9d39-64de26c04719"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Container contains additives - Impact analysed and documented]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="5788705a-fb44-40e5-80c1-f744e43116fc"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="c6560323-d0c5-4832-afa3-fb433e3cf268">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_032_v2_v2_v2}.trim().equalsIgnoreCase("Container contains additives - Impact analysed and documented")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="209" height="30" uuid="75fdba80-f26f-4a2d-9ee3-4bd914dc744e"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[not applicable because no additives in container]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="6277af80-b522-4d28-9f0b-26968e32e665"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="bf13d80b-c7c1-4028-84c3-b2a05bd4df80">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_032_v2_v2_v2}.trim().equalsIgnoreCase("not applicable because no additives in container")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="db77168f-4c50-4205-8f94-7dc6f377f695"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) A sufficient volume of urine was collected for pre-analytical preparation and testing
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="735b9adc-5184-48a5-8bf9-0215e7ca15b9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="4d40b316-a5aa-42c2-986a-6a5d53bdcc99"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c9ab3ad8-63d5-42ed-9e28-ba0180283031">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_033_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="a23f43b8-e7c3-4640-99f5-2554cbf0fb68"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="1305b5e8-cb3b-4280-a326-91b96a32ef23"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="c1d53bfa-376f-4b78-882a-d1f18b6ccb5d">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_033_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="5ca0e244-ac73-4619-8c14-d972102685d9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) The urine collection tube was labelled using routine procedure
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="fb353408-fe04-41e0-92f8-529f5c3f5778"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="08521f4c-53ea-4d53-9ae7-1f04132c672a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="77120653-b09e-4ed2-b7b5-c152989940ae">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_034_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="9edd7f60-380b-4493-9004-7004516f4cdf"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="e89f3c23-e071-4c12-94c6-1baf5a03beb4"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="e030c341-ad2a-4fea-8fcc-3d934852517c">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_034_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="06361fdf-4597-46ba-a9a9-09a87a735a9a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Labelling with additional information integrated used?
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="7bc2c5c9-285c-4c78-8963-7db7c90e31c6"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="56f63b1d-7361-4998-be89-eb1f55a5c650"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="82f71143-3ebf-4c03-8567-620d9ac3df42">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_035_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="d14c9a72-7c6a-418a-a5e2-5d20ccc7293f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="d5a888c7-d89b-4911-9af3-1b1e4a4ad21c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="097f0689-a799-4192-9661-942259c54b4d">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_035_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="4afc96e2-86a4-4eb9-867c-64d194a2129d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.1.3. Urine collection and reception from specimen donor]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="57141bfa-5180-4a76-8f22-214be5d4e901"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) The donor was given instructions regarding the urine collection
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="a08aa05a-e896-4631-a4f5-ad3fe023b4ac"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="b8e9f5d5-f934-44a1-b6f5-ee522f84c7d1"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="2d25b00c-5a32-4789-890f-07a3c7231e07">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_036_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="f8ea5058-f20c-4670-a53a-fec9734d467e"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="643ce988-aeb6-404c-b15d-ce4461ea5ac9"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="9ddf3153-8546-4378-813e-1cd2eb5683d2">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_036_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="e6950ca6-1862-422d-898f-ba1bcc43b472"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) The urine collected was the first midstream urine after a minimum of 8 hours fasting
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="6a6a28d4-a376-44ff-8f62-566912d5f38a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="3a6b2ad3-51be-4e34-8d0a-fe93b01035c1"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="7296e4d3-a4df-40b4-9e67-d2d9f9c90caa">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_037_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="d1393427-3e94-49a7-ad33-001b5e5b7dbc"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="84ba167a-7c49-4a79-9c44-1fb5f2331162"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="daafe3c3-5917-40b1-8710-192a462a71d9">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_037_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="29470655-af49-4460-b76e-421bfa51c4a8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) Any variations to the standard instructions were validated
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="f412eca4-1fcd-4dd3-aba7-c068f2b6197e"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="ff60cc6f-7876-4653-aa81-e526f641e957"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="d787e5ea-b1de-4d34-a4a4-4a3bc318692a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_038_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="3749bf8f-302d-49e2-ab4f-c3867be360b9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="845317cb-5d84-4424-a5a6-41df0ff7d6ef"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="e46e5761-9576-4516-879b-6cdb98913286">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_038_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="95" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="95" uuid="1684af54-de31-45b5-8d4f-2345862a4db5"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Have you observed/documented any clinical procedures that might have affected the specimen collection in this collection?
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="c80470b3-214f-49e7-84ab-8975041b8333"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="d9fb087e-7a65-4b6f-917c-18e9886aca9a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="96166afc-04f7-41f0-91e1-cc05747282e1">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_040_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="209" height="45" uuid="ecdeff59-7153-49e0-b80d-1e7c8b4e6f90"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No observation/documentation of clinical procedures affected the collection]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="45" uuid="d114c10d-b75c-4d3b-8241-4281fd079fb8"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="45" uuid="12e622e4-575d-4bbd-9f0a-abb885085881">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_040_v2_v2_v2}.trim().equalsIgnoreCase("No observation/documentation of clinical procedures affected the collection")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="bed4ce05-24fb-4c60-b611-c3a12e343c38"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Total urine collection volume was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="55b9f14f-7797-471d-9e22-203212581be8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="1f2c3e9f-182c-40cb-b1fa-57dae7dc935f"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="adf04d76-6eb0-47d8-8f07-f7f0039fd815">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_041_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="7d7866bd-f2ef-4c27-8a32-5116315c1f2a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4e7a7d2d-217d-4705-853e-556bf437be25"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="ba530196-bddf-4800-a8a9-bea91c6de4f1">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_041_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="338bfeaa-eeb6-4e02-ab3a-ff887f65b594"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 4) Recipient of specimen from donor was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="2b063f17-78e9-4bab-87d4-a6586f3d51de"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="11fa850e-a4e4-4e3b-be7d-6eff1468e280"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="df7a70bf-ffa3-49be-b84c-46d830529ed2">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_042_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="c55d8955-9f9f-4e38-b6be-0891183eb7c4"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="dc6adc8d-9fbb-4a1a-b5c5-903e3c7983d2"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="5744726d-da04-43be-9e38-7f19da90a58d">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_042_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="d3e70c6d-2e92-46ef-87c4-f8d7ac9bffe0"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 4) Time of urine collection was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="8aa7f1fd-84ad-4431-bc0a-7a413c9bf2e4"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="95e22e1a-5584-4bb7-a9ec-071d2e592143"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="a6ef04d4-9f1f-47f0-8835-1d8adfe121a4">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_043_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="b869237f-3b2b-424a-a598-cc23a6ffbfb8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="6ba34625-a53d-4416-bf04-39fa99d90319"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="8053f439-b4fc-4847-a531-c516fcf408a0">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_043_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="69">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="69" uuid="200a1642-953b-4b1a-b937-1bfc7fc993f7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.1.4. Information on the urine  specimen and storage requirements at urine collection site]]></text>
+			</staticText>
+		</band>
+		<band height="75">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="75" uuid="96a64007-14a0-4c96-84a0-a489964354e7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[As metabolic profiles can change after urine collection an can thereby affect the validity and reliability of the analytical test result, the documentation on the primary urine specimen shall include the time and date of urine collection.]]></text>
+			</staticText>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="87a7eaf6-344a-4781-b402-212f952d419b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) The time and date of collection were recorded on the documentation of the primary urine specimen collection
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="12d551a8-fd4c-4d48-aad9-b38e57649642"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="a7ec6765-6ffc-4c04-9223-a1d723267de1"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c0236d9d-1cd1-40bc-a912-28522acb2fac">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_044_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="b56f2d33-e433-4c9b-b2df-3ed6818ed2d7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="f49da542-2f00-46e1-865a-9f19d9b6e4bc"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4e86631e-9965-4c8e-b98c-77cc61e3aa1f">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_044_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="c591b632-5c83-4b98-8f60-6f35cab920cb"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) The whole urine specimen was refrigerated at 2-8°C for a maximum of 2 h
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="f4b3267b-6292-44c8-8c8c-e5c18d4c4a2b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="5a2a69ce-f569-4b1f-bdda-60b3644460f5"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="e36905ad-9b7e-4a8c-bd6b-7800b145de78">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_045_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="db02e97a-67d5-4aa0-817a-80a56e10fd80"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="866d424b-41d4-4068-a33e-9867d6fef3fe"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="0eb6f4eb-f602-4d4f-8874-2008154fc9e0">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_045_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="485e1e0b-0be9-4861-8b52-d5768c803c86"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) Urine was not frozen prior to centrifugation and/or filtration
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="671b4b9e-47b2-42b6-8550-4844ed310eb7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="863ce21a-1bae-419d-8eb7-cef744977064"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="125c462c-a0ed-4be6-bf96-d439edb847d0">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_046_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="d9e9bc3c-aa26-4da0-97f2-2f61e661aa95"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="44d8f766-c185-4617-b90d-49911172ebf9"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="3e650397-c353-42a4-8b05-fa241d3c2b4b">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_046_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="60" uuid="e597cb00-9a51-472e-a4a5-7528f64639a6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The allowed urine specimen total storage duration includes the time of storage at the point of urine collection, transport and further storage.]]></text>
+			</staticText>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="318ab9d6-31a3-4566-af12-07e7ae513453"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.1.5. Transport requirements]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="5913ede8-14e2-4ecc-b75e-b69f25006f7f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Was the urine specimen kept cool during transport?
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="7828642f-74c0-40e6-bc2e-f0744ce4c702"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="a5fc523f-b793-4009-9752-367c11669f18"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="6799122c-1ad0-40ef-b058-fb4e866d93c9">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_047_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="0c009a7d-06e8-4a33-8c10-deb1ecbafc80"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="dc02b874-ebda-4b24-894b-c69ab1beab13"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="7bf0c4a9-5865-4d00-9516-7b4d7b3711b3">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_047_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="4f123e38-f053-41b9-9d40-de14ec3321c7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) Were appropriate measures taken to ensure temperature and time specification for delivery?
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="90eb577b-f0f7-4963-8639-ae8c7233241e"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="5602fe9e-b368-4fd2-8f5a-85ff95d4c6ac"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="dcab6fa9-1563-4ffd-86e0-e06fdb162ce4">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_048_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="a9ca8aab-4bda-4c33-b913-a651e6878953"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="f8283142-b100-46d7-b291-53ae77dd3a81"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4c9332da-4a9a-4959-8227-139dc32bbd9c">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_048_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="110" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="110" uuid="eadfffd1-7e2e-4ada-9861-da2accd14fe4"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Use of pneumatic tube transport system was validated
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="96fdeb94-125f-4beb-860b-cc21d75709c1"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="fb09acd7-c319-4692-b711-34da38b4866c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="1d0e0596-cb29-4efa-a66f-38eb94bd765a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_049_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="17" height="15" uuid="5a4f0890-61f5-4671-a188-8591db1f2fd3"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="0621c566-f0a1-48b5-b5a0-352c44f46e0e"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="e608e60b-76fd-4ac9-bc20-077f6c6c00f2">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_049_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="209" height="45" uuid="6da83960-31c0-4080-8eb5-b94012c9b27b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable, this type of transport was not used with this collection]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="45" uuid="5fe9d001-8e3c-40d3-b8b4-94826599d4da"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="45" uuid="a8140885-7af7-49f3-954c-8b18ab574066">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_049_v2_v2_v2}.trim().equalsIgnoreCase("Not applicable, this type of transport was not used with this collection")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="90293999-d8f4-4579-8302-97d08bc30116"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.2. Reception of urine specimen]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="90a0aa51-dff1-48d4-8550-d81bb4220659"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Reception time and conditions of the urine specimen were documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="8eefacce-18a9-4dd5-aa6b-9dc2c445c738"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="500f8866-71f5-4c6d-9afc-f3097d95764a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="118612d5-a33d-4c02-b788-02f9a2f9b7dd">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_050_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="4869f0e8-f1c2-4b5e-a4f3-8da5ee3663cb"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="c7fc0705-62cc-4ab6-a4ee-1c684c0bfa84"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4de57e09-0f35-44df-9b30-17945258a277">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_050_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="125" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="125" uuid="f84b48d8-bafe-4a0a-a829-18de0998e412"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Have you observed and documented any deviations to  labelling, transport conditions, specimen preparation requirements, differences in urine volume to those described in the specifications for urine collection?
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="2466edb9-7d00-4a34-904a-e4ef216de4a4"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="851db9ab-0c56-4d64-9332-e0739f8e3b23"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="98fc8897-c51b-4a10-b8b6-e850ba861643">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_051_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="234" height="30" uuid="8cced5fa-8baa-4aeb-ad6a-ea3750ca02e9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No deviations observed/documented in this collection]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="30" uuid="0e3ac6da-2170-4526-91e1-b2cfbc79879d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="30" uuid="f6caca38-22b8-4282-8128-17795f589ec1">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_051_v2_v2_v2}.trim().equalsIgnoreCase("No deviations observed/documented in this collection")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="60" uuid="3d58dab9-6504-4f99-a750-2de390a93a84"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[If  any deviations/nonconformities were observed that could affect the validity and reliability of the analytical test result, was a new specimen should be obtained.
+<br>]]></text>
+			</staticText>
+		</band>
+		<band height="80" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="80" uuid="cc4b8d73-2e17-4cda-93ff-e817ffdb26c2"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) If required for the analytical test, were the properties of the specimen assessed? 
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d16e6391-9a46-4ab4-a599-23a2352e061a"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="4b9a602a-61e9-4a2f-9f1b-56e46eeaa49d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="eb5f8959-9ccd-4eab-b65d-557080d078af">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_053_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="17" height="15" uuid="c945fe71-018e-417f-9fad-d7ecc91791c8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="508e2ee4-72c3-4a42-b7b4-91fbd6a3fa69"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="f097c8cf-d2e7-4269-8563-095ac7682874">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_053_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="209" height="30" uuid="4cb86701-321f-4c05-abe7-45234ee1720f"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable, assessment was not requested]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="ba3ea179-de19-49ee-9862-289cafebdd6d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="c430c4b4-7765-4c59-b754-825cf431f4d7">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_053_v2_v2_v2}.trim().equalsIgnoreCase("Not applicable, assessment was not requested")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="9268ba17-caa9-4d06-9f16-ab108f1cff7b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.2.1. Storage requirements             ]]></text>
+			</staticText>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="ac3fd803-43d3-46b7-8c80-e9237024e71c"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Storage temperature and interval of time between reception and sample processing were documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d70108b0-603f-4ba8-b896-223f43fdfc49"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="8d024fbc-2ba7-428f-88d8-662569fb1b47"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="9f86dacd-c5c0-44dd-89d9-bf65371b3a2e">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_054_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="83d8cae8-4add-4e15-b285-1089713994d3"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="580b21ea-ace3-4ec4-b7ee-13c74df4cf09"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="421fd189-6f55-4ca1-b9f6-d9f2091bee31">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_054_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="100" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="100" uuid="4798836a-b69d-4436-bd77-58e89fbb2fc8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Duration of storage at the urine collection site, transportation to the laboratory and further storage at the laboratory were included in the total storage duration time of the urine specimen
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="5932a5af-6da1-4e3b-8ce9-c8e974f34495"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="0efe28cc-ae06-4dd2-ad23-c51d567c0516"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="ced88503-2248-4683-b862-add828327db3">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_054_v2_v2_a_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="6a6a2c72-e301-42a2-a2e0-7bcba835e6f6"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="4f324b1d-6256-4992-b0f2-78d0c27791b8"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="589f948f-2c62-49b8-8dd2-98f014c6df30">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_054_v2_v2_a_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="8b73f859-547f-460e-9e4a-7d7a05cd450b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 4) Were the manufacturer's/assay providers' instructions followed?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="c8aa24ff-da05-42fc-93e6-10cbb1d46c61"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="26991293-84f9-475c-bf2d-252ac4cf1e52"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="2ed6625a-e2ca-4639-b5ec-1f08f677550c">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_055_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="929e039c-162a-4447-9170-cc3e3b753ac5"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="70e26641-3f88-4d60-9ffc-beab6954b407"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="2a0edc97-3ea0-4063-a6e4-bd1530a1e051">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_055_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="38e81564-7140-4475-97f9-747a10180628"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 4) Were appropriate measures taken to ensure temperature recommendations were followed?
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d0b5fd62-08a8-4fd3-9d9f-7967052ab612"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="2f96a895-f669-4b07-becb-c5a6972bd769"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="68516516-189e-4132-8829-014935ede1ca">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_055_v2_a_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="8ce9a7c4-66d7-41b1-aa0c-daf4d3b4b2b0"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="d23cb0a6-6fc1-40e6-b4f2-37bc50d19e1a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="92ed5885-0f84-4434-bbb6-f1b7c14e4b3a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_055_v2_a_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="d0ee5717-59d8-4d7b-8e98-dfac50c290be"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.2.2. Urine sample processing]]></text>
+			</staticText>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="ce9339d4-5e5d-49ac-b97c-532f74239bc2"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Was centrifugation performed?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="80676ef6-b46a-4cc2-b851-04e37e0c9fc3"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="fbb7b239-886d-4dfa-9899-9036e75815b9"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="bd47648b-676b-4839-a431-979b132a5e47">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_056_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="17" height="15" uuid="9142cf79-15bb-47fb-a68a-a9bbb1a12f2d"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="bed5f296-38c2-4493-ba9a-b83fdefb8a83"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="21c9461d-d66d-4ae6-9336-2fc6193a48f7">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_056_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="209" height="30" uuid="24053a49-06dd-458f-9900-b8fe03bcf61b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable, alternative procedures (filtration) used]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="e9e515e6-4e98-42c0-acdf-496e9752b46f"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="30" uuid="ebdbfbcd-9d36-44c6-8673-83ae6207e15a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_056_v2_v2_v2}.trim().equalsIgnoreCase("Not applicable, alternative procedures (filtration) used")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="0c7bb34f-c52d-4f3b-8262-c0fcbcd8207b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) (After centrifugation) appropriate filtration was performed?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="be62a63b-4892-47c0-a539-e3186079b152"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="142b092c-647d-4d4c-9588-94ead1ad962c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c2c94f3c-3a7b-43e5-a6bb-c33cf4a2f3ba">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_057_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="a207a4eb-55ef-45b8-9db6-8459237fa006"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="38b790f4-8521-467a-8b56-ab85501d13a7"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="2375bb17-1b45-4fc6-8276-342f74169f43">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_057_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="4847bf2a-9fb6-45a0-afcd-01ca48c6dbf9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) Appropriate filter material was used for metabolomics analysis
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="a3b0f967-1c0e-4ac2-bd10-2df2defabf2b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="195b8874-878e-4554-a9bd-ead896ae5754"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="5659508b-7666-4e3b-87f5-66f6e7010a86">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_058_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="7208c194-361a-445d-88ac-8bc2b54441a0"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="1c2529a6-07a4-4c1c-abb0-882cf3d1c372"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="7e987d4c-1004-4725-b140-86262a4a3d7b">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_058_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="117" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="117" uuid="f6b4fba4-91a4-4c4a-b0e1-7009bc2b9612"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Alternative urine sample processing was performed and validated
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="234" height="30" uuid="d6a716b8-a4b4-4833-aec5-8a87953bb3bc"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Alternative urine sample processing performed and validated]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="ab013ffc-85e7-4eb6-b626-c7abf127342a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="6244474c-a232-40f4-bf3c-36b88715bc57">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_059_v2_v2_v2}.trim().equalsIgnoreCase("Alternative urine sample processing performed and validated")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="90" height="15" uuid="4c2bae34-3e47-4fcd-b193-d2252cd5ddf7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="fa8c67c9-89fb-46c8-832a-5a6185211d46"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="85f334d6-4007-4622-9910-dd78985c4fb9">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_059_v2_v2_v2}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="a9711610-519a-4ead-9381-216dd978bf47"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.2.4. Long term storage of urine]]></text>
+			</staticText>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="217debf5-4757-41aa-9636-56f1accfa839"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Temperature and time duration of receipt, processing and freezing of the sample was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="2845f608-6fbc-4b67-8d25-a735e850a2f7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="f4947c94-947d-4a36-94bb-86b1fcd9a4f5"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="307b1216-09a2-47e1-986f-52bd120f50e9">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_060_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="1f403596-6aaa-4aec-81d8-298dee3feeda"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="7de41916-e658-4b75-8283-f77f70ea5bde"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="7ad0b1d1-17bc-4085-8caa-5ccbeed4fa04">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_060_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="8f75d554-ccda-482d-9674-5638f3256139"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 2) If the urine sample was intended to be stored frozen, was the impact on metabolomics analyses validated?
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="ab7a5977-b3db-464a-bfee-0cf64b734885"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c7674552-a5c8-4d63-a6e8-38f738406d6d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="d6335199-2ff4-4de5-842b-40e532977eaa">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_061_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="4ca6ead1-e97f-40cb-93ec-cebfc317ea95"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="bbb13e1e-4637-45a6-ab2a-8282de29adbf"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="5babff16-7295-442c-ba4d-3432d9ca731a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_061_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="aa6829af-80fa-4873-b163-a2ce916e4f50"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 3) Before freezing of the urine sample, were cells removed?
+<br><font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="0ed181ac-86e5-4475-8a96-71f0672f7e53"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="c1575182-7014-4f30-8290-f60ba6ccef53"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="e2328ffa-638a-4a2c-9a3f-34606c7f61dc">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_062_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="4e4abc62-2223-40fd-b41a-afc664bbc7dd"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="17fe39a5-a7d2-41b5-8c24-16492247a56d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="ac1c9a7f-68f6-455a-aea9-7b2d000ab440">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_062_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="60" uuid="4a5d8bdf-80a7-4bf6-8923-a04da5f63f7d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Were centrifugation/filtration steps have strictly followed, storage at -70°C is sufficient to ensure stability or the NMR-detectable part of the metabolom for at least 5 years.]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="e0d36185-5f6b-4316-857c-8686e74fb900"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 4) Centrifugation/filtration steps followed, sample is stored at -70°C]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="e5cc4c76-3b11-4c7e-aaef-d575fd0b4e83"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="edc110f3-de6b-43cc-bda8-ed81c722b89e"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="15ab42f6-c75b-4e0f-bcda-c76e42ca39d3">
+					<printWhenExpression><![CDATA[$F{text5_2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="17" height="15" uuid="e89fda47-1671-4331-ab0b-53c1e8e854c8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="da0375a8-ec35-4e4d-84f0-7e55a99ce659"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="15" uuid="2c87eb8d-c57b-401e-8471-eb8ac65bdf8a">
+					<printWhenExpression><![CDATA[$F{text5_2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="90" height="15" uuid="35b1b2b7-7806-4e2b-8a70-bf16547497b8"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="59bd5d37-d439-40fd-9883-0446447a957d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="0e53cfc0-b333-479b-9714-3b3a9eb7a17d">
+					<printWhenExpression><![CDATA[$F{text5_2}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="65" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="65" uuid="4a176604-4d02-4986-a14c-9ed0c0a1c3f9"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 5) In the absence of any recommendations, was the sample stored at a temperature below -130°C?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="209" height="30" uuid="406f834e-e9cb-422b-918e-e1b8890545c7"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Centrifugation/filtration steps applied, storage at below -130°C]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="506dc6b0-7016-4f5e-8925-95bd0734d2d7"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="30" uuid="022ea1e6-4966-4f8b-bfcd-2d860878df4d">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_064_v2_v2_v2}.trim().equalsIgnoreCase("Centrifugation/filtration steps applied, storage at below -130°C")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="30" width="90" height="15" uuid="90052189-03f0-4749-88e5-b9893e4b2b24"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Not applicable]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="7c97e207-39d9-4765-a35e-f4884769c710"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="30" width="10" height="15" uuid="e879dbd0-a33c-40ea-9e4d-0b5e3ca653c0">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_064_v2_v2_v2}.trim().equalsIgnoreCase("Not applicable")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="c37ce45b-d5ee-42b1-b0c0-d60f7c770538"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[5.2.5. Urine thawing]]></text>
+			</staticText>
+		</band>
+		<band height="40" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="40" uuid="9b2034a9-6363-4b26-ab85-a9736fc0bd3c"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Thawing duration was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d2bbe9f0-7f0d-403f-80ad-ca5c4cff7332"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="5b56b2bf-cb21-4b94-9565-0f32b2c91a0f"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="358643af-5a62-46ee-9343-dcb046faf880">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_065_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="67f1e407-c7eb-43f0-b025-220e635e8597"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="3b2f42b9-9283-49b3-b7df-24fc1bc9c1c5"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="11c0d03a-cc02-4dfe-8b13-45849ae6cdf7">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_065_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="681723e0-5b32-4fcf-8c33-ca961019d9c4"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Time elapsed between thawing and performance of the analysis was documented
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="938b5f2f-4f19-4e4e-b53f-c3d1e31e9fb3"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="3b0d360b-40a4-4b33-b435-f0d0bf759d1c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="4113cca6-fee3-4b7f-8c28-5585441e5e01">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_066_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="793ca7bd-32c7-43f6-9f7d-81e1c6a3cb43"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="e661e3a7-25c8-42b2-b43d-77438cf81d6d"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="83c08b29-c607-4b77-82d3-c1eb7b1fb81e">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_066_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="70" uuid="06a54e9b-8091-430e-94e3-060d2c467d0d"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[para 1) Thawing procedure and time period for commencing the subsequent analysis were validated
+<br><font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="22" height="15" uuid="d81d581a-0b3d-48e9-ad04-06256f3b95bd"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="4851c852-8a68-4184-a975-f918ab8142f6"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="10" uuid="5da3aa05-9eb9-4814-9fcf-36f02e44892a">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_067_v2_v2_v2}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="16" width="17" height="15" uuid="d0de5051-0e88-4ed7-973f-f072a9224441"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="52cd1838-462c-4228-99d0-423f9c383bea"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="16" width="10" height="10" uuid="758d1548-61c2-4616-991c-b573b44d4b37">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_067_v2_v2_v2}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="25" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="25" uuid="76efe35b-aa4e-4c67-a411-9eab76a06646"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Additional Notes]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="15f40909-b1da-41e8-be3e-2f74a295d781"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metabolomics_urine_068_v2_v2_v2}+"<br>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="7f08f1ea-35fd-4d2d-bff5-17abcbfedeaa"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Generate and send PDF report]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="335" y="0" width="202" height="15" uuid="cbc603c4-cdf6-49b3-8557-7ea733af1b17"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Generate report for internal use]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="7d14c4f0-7229-46d6-a6d7-6c84bdabf76e"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="10" height="15" uuid="acf7ecfc-fecb-470d-b707-d02da049c064">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("Generate report for internal use")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="335" y="15" width="209" height="30" uuid="74c9a9cc-83e5-49ea-acda-5a37e0ee3cee"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Generate report and submit results to BBMRI-ERIC]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="30" uuid="26172f8a-5062-4566-986b-5d1379616fbe"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="15" width="10" height="30" uuid="c712dae8-c07b-4588-b9fa-4e8e4e159146">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("Generate report and submit results to BBMRI-ERIC")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="b1b26f7a-c862-4f17-ad91-b964cfa16a51"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Declaration]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<staticText>
+				<reportElement x="25" y="0" width="272" height="55" uuid="ddf6b371-b1d8-49f0-acbd-a89ad31e8ff1"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[I hereby certify that the information provided above is true and correct to the best of my knowledge and belief.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="337" y="0" width="210" height="24" uuid="5f860c19-b969-41c2-bf71-4df8f472966b"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[ ]]></text>
+			</staticText>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="12" height="24" uuid="77b405d8-d4cc-45ee-931a-099da6616f9c"/>
+				<imageExpression><![CDATA["checkbox_unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Top">
+				<reportElement x="322" y="0" width="12" height="24" uuid="7ed8f178-53ca-4954-aab2-c2b7227d9750">
+					<printWhenExpression><![CDATA[$F{metabolomics_urine_069_v2___1}.trim().equalsIgnoreCase(" ")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checkbox_checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="41ab448c-1a0a-4758-b058-204d79bfe167"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Confidentiality Note]]></text>
+			</staticText>
+			<line>
+				<reportElement x="25" y="9" width="545" height="1" uuid="0c9a4a56-27a0-4a8a-bd21-53f10e9b7bc6"/>
+			</line>
+		</band>
+		<band height="120">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="120" uuid="eca2f775-a5b4-4c8a-b5d4-7be7927bf8d3"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The Self-Assessment Survey (SAS) and SAS report generated is intended only for the person(s) or entity to which it is addressed. The SAS report is to be treated confidentially. Any review, retransmission, dissemination, reproduction or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited unless express written permission has been obtained from BBMRI-ERIC.]]></text>
+			</staticText>
+		</band>
+		<band height="52">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="52" uuid="a7ef65fe-b2fd-46ca-8f03-beaa6207f9e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Privacy Note]]></text>
+			</staticText>
+		</band>
+		<band height="75">
+			<staticText>
+				<reportElement positionType="Float" x="25" y="0" width="545" height="75" uuid="50ac397b-133e-4b69-bc01-04107af24f6b"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="12" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The data you provide us with and content from the SAS report will be treated confidentially and will not be passed on to any third parties, except with your prior express consent.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="143">
+			<image vAlign="Bottom">
+				<reportElement x="0" y="0" width="595" height="143" uuid="4ec00ebf-5076-4340-990f-03fb883fd0cf"/>
+				<imageExpression><![CDATA["footer.jpg"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement x="297" y="60" width="272" height="30" uuid="009c6c6d-e14c-48f9-8420-47fa0f34de8b"/>
+				<staticText>
+					<reportElement positionType="Float" x="218" y="20" width="24" height="10" forecolor="#004280" uuid="91e56d29-2fbf-4b2a-bd41-dd3fe9637a41"/>
+					<textElement textAlignment="Right" markup="html">
+						<font size="8" isPdfEmbedded="true"/>
+					</textElement>
+					<text><![CDATA[page]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="242" y="20" width="12" height="10" forecolor="#004280" uuid="8966cafe-76c7-4ba9-bf75-e19ce20dffd0"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom" markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+""]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" evaluationTime="Report">
+					<reportElement x="254" y="20" width="18" height="10" forecolor="#004280" uuid="8f9a9069-d686-4ee2-8594-38c056537730"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom" markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["/ "+$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="216" y="10" width="56" height="10" forecolor="#004280" uuid="2dcf970f-cc98-42bf-90c9-2dae4416c602"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom" markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yy").format(new Date())]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement x="216" y="0" width="56" height="10" forecolor="#004280" uuid="7f6b3b4d-a7a3-43cd-b3ed-70b41bc662af"/>
+					<textElement textAlignment="Right" verticalAlignment="Bottom" markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Record ID: "+$F{record_id}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<staticText>
+				<reportElement positionType="Float" x="25" y="60" width="272" height="83" forecolor="#004280" uuid="8b57dda0-b40a-4050-8388-eff6cfa0fe78"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[&emsp;Document title: BBMRI-ERIC SAS for CEN/TS 16945:2016 E<br>&emsp;Version number: v02, 2018-06-29<br>&emsp;Created by: Sabrina Neururer, BBMRI.at<br>&emsp;Approved by: Andrea Wutte, BBMRI-ERIC]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

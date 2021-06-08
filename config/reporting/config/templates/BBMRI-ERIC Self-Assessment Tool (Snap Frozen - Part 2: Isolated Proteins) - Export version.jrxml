@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="REDCAP Test" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="25" bottomMargin="25" uuid="adfb8d94-8dd4-4028-8dcb-38a5feb46296">
+	<field name="record_id" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_003" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_004" class="java.lang.String"/>
+	<field name="contact_email" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_005" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_006" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_007" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_008" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_009" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_010" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_011" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_012" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_013" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_014" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_015" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_016" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_017" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_018" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_019" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_020" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_021" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_022" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_023" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_024" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_025" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_026" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_027" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_028" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_029" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_030" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_031" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_032" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_033" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_034" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_035" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_036" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_037" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_038" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_039" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_040" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_041" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_042" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_043" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_044" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_045" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_046" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_047" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_048" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_049" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_050" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_051" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_052" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_053" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_054" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_055" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_056" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_057" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_058" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_059" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_060" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_061" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_062" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_063" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_064" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_065" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_066" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_067" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_068" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_069" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_070" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_071" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_072" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_073" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_074" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_075" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_076" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_077" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_078" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_079" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_080" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_081" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_082" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_083" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_084" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_085" class="java.lang.String"/>
+	<field name="eric_submission" class="java.lang.String"/>
+	<field name="snap_frozen_proteins_086" class="java.lang.String"/>
+	<pageHeader>
+		<band height="70">
+			<image>
+				<reportElement x="0" y="0" width="545" height="60" uuid="2b3f006e-a7a1-4a57-95e6-a5ecde17cb90"/>
+				<imageExpression><![CDATA["banner.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="c5e2d969-03de-446c-b73f-f3494fcf7f00"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Record ID]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="8276162d-7abd-484b-95ae-35ca34d58253"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{record_id}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="190">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="190" uuid="9f622882-b2e6-4353-94d0-4e139104be8a"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The integrity of molecules can change during primary sample collection, transport, storage and processing thus influencing the research results. Standardisation of the entire process from collecting sample to applicable analysis techniques is key. The European Committee for Standardisation (CEN) published Technical Specifications to determine influencing factors and provide recommendations for the handling, documentation and processing of frozen tissue specimens intended for protein analysis.CEN/TS 16826-2:2015 E Molecular in vitro diagnostic examinations - Specifications for pre-examination processes for snap frozen tissue - Part 2: Isolated proteins <a href="https://standards.cen.eu/dyn/www/f?p=204:110:0::::FSP_PROJECT:41047&cs=1DB1D2029ED095773CB6DBF4D2F466551" style="color:#004280" target="_blank">For further details, please visit the CEN website.</a>This Self-Assessment-Survey will help you to assess and improve your sample processing.]]></text>
+			</staticText>
+		</band>
+		<band height="100">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="100" uuid="75e2416b-1b30-41cb-b8ec-2d3ff1e99b6c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="html">
+					<font size="11" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Italic.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[The colour coding of the following questions asked in this survey indicated by <font color="#ec6607">orange</font> that you <font color="#ec6607">shall</font> meet given criterion respectively by <font color="#004280">blue</font> that you <font color="#004280">should</font>  meet the given criterion.True and accurate responses will give you genuine feedback on your sample collection procedures and will help you to improve certain processes in future.]]></text>
+			</staticText>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="4883f945-c826-4845-bb36-64fce3655785"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Main Contact
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="38564306-91a0-4ff3-9fff-56b9a2b84bc3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Biobank]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="5bb7682c-2203-4b88-9cfd-e97572295291"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_003}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="1f7aa9b7-c722-42d1-9d2d-128392b4b24f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Name of contact person]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="8bd15159-66c9-45c1-9f0a-e665af0fb7b0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_004}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="af75b5c8-9e34-402b-acfe-8193f76cdd3c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[E-Mail of contact person]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="89e27c06-1207-4464-a6e6-86ee1812d5e8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{contact_email}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="48882cde-a59f-406c-bd4d-60e9fcb084a4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="ef267293-2190-40f9-a07b-2924764ef5a2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_005}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="80d0a548-a1b5-4dec-bfef-2b14371ed907"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[ZIP]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="368038e4-b1f5-4ade-9714-8cfc4d89d07f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_006}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="2af52b80-2898-4874-a76d-6fa035686fe4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[City]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="c5727f42-67b0-428f-ae7b-bd05b9735562"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_007}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="9b2389cb-dcc7-4966-a5c4-c4b91fb39493"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Country]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="91640e7a-ac83-40b1-9169-aff412da6337"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_008}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="3b9e8502-81b2-4f2c-b4ee-1d70693e6066"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="a874fb27-edf9-4efd-81b9-8c07b7781034"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_009}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="6cc134ea-0ee3-42d5-87e5-0ef33e04cd6a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Overview
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="5fbbaeb3-3343-4373-a945-4b49863fd5cd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Biobank type]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="1b09b3a1-c226-4d17-8e00-8820dcdc5dc3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_010}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="231e1eb6-a4e2-463b-8313-205aeb61d0f0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Collection ID:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="02016353-abf9-4457-9d90-4e38886b2f70"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_011}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="108815a6-8505-4db6-913b-ca274f7ec97f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[How many samples does your collection assessment include?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="796c9396-4e20-4f63-8fe7-70cd2686b7d9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_012}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="e5e0302f-0c09-4333-a202-36ebbc461764"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Which ICD-10 disease code is allocated to your collection?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="03b8af46-36ee-4466-9e45-1cf2d28902c2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_013}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="26fe4bee-cf49-455f-8081-5ba58c12ee3a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No disease code applicable, sample of healthy donors used]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="40" uuid="33bdba87-f4bd-48c5-baaa-63defc7c4dea"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_014}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="3d3fc6d8-1669-4775-a3ea-8e4bfaf1dbe3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[BBMRI-ERIC Partner Charter signed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="25" uuid="96353423-25a7-40ef-8e5b-acda25c184bd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="8532873f-2ef9-4e48-8571-6c0ea22e0c70">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_015}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="25" uuid="b33a3d00-eb48-4e3e-93c9-2f229fb23d14"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="6aa064d2-0d19-4408-9ad2-673b6e680fb6">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_015}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="cd26768e-14e0-4db7-b13f-41f858e8e5a8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Primary tissue collection
+
+Information about the sample donor:
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="c4fdd4f8-3303-458d-be9a-9fac18c8e683"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Donor/patient ID documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="19896093-c615-4851-9c29-7ba204c85c32"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="17318e66-3d04-4d9a-af8f-02ddf19bf45d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_016}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="4911ae57-db17-467d-a180-7a79feabd4a8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="05ecf97b-c92e-4198-8ebf-ae81e2a192cf">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_016}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="300574c0-12c2-4a4b-87ca-46c6208793cc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Health status of donor/patient documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="f57ae61a-fff4-4b70-bb48-a5dc1dd5372a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="f1092cb0-109c-490a-b483-1488c01c2a1a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_017}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a0f34f5d-61b7-4a04-84e2-cff2d0381b74"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3d578425-082d-413f-8f1a-cc42a2b7e788">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_017}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="36fa3a8c-6354-4184-9556-b44fa0d80558"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Medical treatment prior to tissue collection documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="4e544243-29af-4e2a-a8ad-f6396481627a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="816c3f4a-3193-487b-aae3-a1aeb12aa50d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_018}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="0bfa2c5a-af31-4358-a999-361e65c184fa"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="3a10d79e-8a44-4c1e-83a0-2b4b1bf678e4">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_018}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="50be6918-9ecc-4bb0-9b2b-927a6e1b9a59"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Start of ischemia within the body (warm ischemia) documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="a79ee82a-e022-4f8b-bee6-bf5770d87234"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4763776e-c1f4-4299-80ce-5453871eeea3">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_019}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="1a672cf7-697a-4b8b-9a34-c5e4e876db74"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="6c4c6072-17f9-44d2-8cd3-7c2df098e5d9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_019}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="594322dd-1f3b-4180-a193-1f6f9baa63e0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Information on primary tissue sample:
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="61bfa25d-3349-4408-a725-fb069d302e3d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Time point of tissue removal from the body documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="2c545d0a-75dd-4e1e-8bc0-33da972ee085"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f89bd2c2-9628-402e-b480-fbb93fc9d76b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_020}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="25a16bbe-8e64-427f-ae1b-01c7a9904cfd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="088c842e-4790-48b1-94d6-e78979ce0d25">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_020}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="04bb8bf2-3614-4077-a420-a6279ac0b534"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Tissue type and condition documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="c7fb1a3b-1e7b-420d-8ca2-b961fcef96b6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="85302638-fc02-41c5-8268-d0c3384c9d9d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_021}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3b0dbf98-5486-4b4a-ae20-ab0507f3585c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="cc7d90a8-5578-48ee-aa43-97e46851273f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_021}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="147bda89-2232-4f50-b5c0-479c001da2cf"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Organ tissue of origin documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="c15a11d9-b747-4aab-b5b1-0014d014d48c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="b23b46f2-a7a6-42eb-90bd-647e83fd7615">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_022}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="706463c5-1385-4837-8c64-c579542a7110"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="03399651-1fb5-4a74-80a0-2e625a101b71">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_022}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="586f8446-9f6d-4870-8c08-595e4813f5a8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Information on the primary tissue sample processing:
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="f22ed359-5613-4aa1-ba6f-40509f3a5b40"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Modifications after removal from body documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="8d280199-d9b3-4489-a9a4-276ebc66389c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="fb4f35c3-0583-498c-bf9e-a931eb902373">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_023}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="306bdd65-2dee-4dc1-b94b-e8ad76ac382d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="ca19f73a-31ab-4fc3-a157-1599f0b8bd34">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_023}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="8e2ea99f-f59d-4470-9788-ad16831904f1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is the selection/use of transport containers and packages documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="27c6e4e7-9010-4cc1-8566-0e2509cd2d42"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="ad007098-cd62-4b99-bcaa-a99a72e67572">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_024}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="d0d572c3-a652-43a0-bc2f-c235d45338a4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="06a503bf-30d5-45d8-9ef5-a1e91ff7cfdb">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_024}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="4d63f180-bcc6-451b-a376-657d328feec2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is the selection/use of stabilisation procedures for transport documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="31325e11-cc50-4fb0-bf8d-23de376ed9c0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="582636b6-4d7d-44c6-a7fa-8dcc798b842d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_025}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="36535c14-08f1-402f-85a0-b0a3ac3ca247"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="7d37db53-2d35-42e5-b2ee-806a1dbbc72c">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_025}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="3a79e06b-7f9a-41b4-9581-d61087d2abf2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Labelling of the transport container performed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="8d7e7986-24a7-4853-991e-7d0a32d5e41d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="156dfe63-acad-49e5-b7dc-97e1a28384b9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_026}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="7584a80c-0786-49ba-89bf-27c439c0df98"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="0b1fa016-6f1e-4265-a681-f6fe2c7ace1d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_026}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="1f060328-d099-4da5-9af0-543bef2ddd30"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is it documented, when several aliquots of a single sample with different features are in one container?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="c29393b8-9f50-45e1-86d9-c10e8e8b1936"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="9d54cac0-f057-4fcf-a801-b26f95ecefdd">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_027}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="8f18a354-a560-426f-aec9-67f716d05bcb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="f0426cf1-f171-4b85-b390-2ae29b537b1a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_027}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="d4e764aa-39df-4dc7-acae-528db94ce1b5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Specimens transferred without delay into the transport container?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="11e13199-5fea-468d-a0e4-9575d332b5a8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="eab34b21-7902-419c-81f1-b99218101e73">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_028}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="7cfb7a93-55c0-44b2-afe8-c08a034e4aa3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="18628cb6-8889-42c7-9b2f-941075c4d311">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_028}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="7c82b9ff-b7f4-4a31-8b36-3902fc70bd60"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is the surrounding temperature of transport container during cold ischemia time documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="165352aa-068e-4e43-b589-7b602c131517"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="d7e1bd69-fc17-4427-9ea1-41c09fda7475">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_029}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="c1603c65-6d66-4b4c-86f6-dd3489f44754"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="4addc0e1-c901-4eec-bbae-170f854f2ab5">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_029}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="79e871df-a84b-46ff-a19f-3391fa1f0064"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Transport conditions:
+
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="af1a6bba-22fe-4e27-ace7-b52086ae9350"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Transport procedure protocol established?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="bdd74132-ed44-4c74-9bc0-f889b41d1171"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e6f10c1f-f0aa-4711-b2a3-37c4ae7eed32">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_030}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="b827ee53-811b-407f-98e6-f594f16abbb0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e0a404ad-8835-412e-ab55-84953d4429da">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_030}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="80">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="80" uuid="4198be6e-3633-4474-84bf-ee7d996a0088"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Transport of unfrozen primary tissue performed on wet ice or 2-8 °C without delay?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="b34a2369-2ff0-40f4-9455-bf8326c215b8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="d4989ad0-5367-46d2-a90e-f40c314cd87c"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="067258fc-020f-46ca-bd7d-a26d9651c534">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_031}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="15" height="20" uuid="3e71325a-67df-4ebf-a47e-f9a81f42cc91"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="22a2fd78-4098-4066-a8bb-c8474949501a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="378" y="0" width="20" height="20" uuid="c53c3160-51a5-49e0-a05a-eb8427ba8293">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_031}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="322" y="20" width="202" height="40" uuid="3d39209b-e687-4a25-a9f6-41895ee84ef7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Not applicable, frozen sample transport]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="acf08cfa-8386-4ae4-a31d-847a241b501f"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="524" y="20" width="20" height="40" uuid="e7444c86-0737-433e-8476-236ad96bfc68">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_031}.trim().equalsIgnoreCase("Not applicable, frozen sample transport")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="17102427-d370-4dc4-8bd0-b92254e8750a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Compliance with the transport protocol documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="f646c81d-54e4-49e0-b944-28916c90f2a6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="d14debc8-04c0-4a78-bbc1-099cfcbf8894">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_032}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="5103676f-fd68-4a35-8c89-655632174e14"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="69affa5b-a2a0-4e9c-af5d-083f1b76dd62">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_032}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="bbd9a7fa-d438-4645-adea-0772640d5837"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Any deviations from the transport protocol described and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="ab4ad485-22f2-4dbb-ba29-5107a3b93787"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="ed318aa1-35a0-4bc6-a553-61b0bb2757ac"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="c79b1d34-9de2-44ec-a24b-9399f22912d1">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_033}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="151" height="20" uuid="4c9be511-2d9a-4bf4-9554-d9b7ece79f57"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No deviations documented]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="1dc07a8a-9923-45fe-9669-ceea2820fb03"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="1d70f03a-419b-4f36-91b7-5556fdee022e">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_033}.trim().equalsIgnoreCase("No deviations documented")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="16befd0d-d553-44ff-b9a5-6951bc5fbf41"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Primary tissue sample receipt at the laboratory:
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="8ce24927-6a0f-42c2-9420-0b031a4e32f9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Recipient of tissue documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="fb0954dd-8aa9-4d58-9232-02aa91a4b49e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="65716359-2901-4593-b324-046a9a4b8acd">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_034}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="323d946b-61ee-4c70-99b0-4f315910a8bf"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="faec17ff-b3a6-4db1-b684-8c2a0f1a8023">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_034}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="d4ede398-7d3a-4669-b3f3-6d2cf03d96ec"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Arrival date/time documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="e33bf9cb-1640-47d4-8b53-c93d6ad60b46"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="b3fcdc7b-ec77-4d6d-a5ef-68b5757754a9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_035}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a8529aa6-818f-4b62-8ccf-197675dd6645"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="cd23fc7a-1f56-4f7e-b0e5-c13a586769ed">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_035}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="49174221-6533-4ff0-8add-434a623d0c8b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample arrival conditions documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="da489779-d370-4192-8a5e-2e19c3002bb8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3566051d-e04c-4ffe-a3a5-8584b9c312a2">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_036}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="3d1677bb-2962-44f0-8c5f-aeee701b3012"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="91b5fbe6-e0f9-4fa5-89c6-2c196086699d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_036}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="27d33806-e29a-4abe-9c9d-d17a8f3529cd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[In the lab: Any deviations from the transport protocol described and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="21" height="20" uuid="aaff0ecb-72db-4160-beb5-ebf3805bb9e2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="6d2a7071-b781-4235-9a08-928783c9d767"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="343" y="0" width="20" height="20" uuid="72731833-0206-4794-8f7e-888a15b38c76">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_037}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="363" y="0" width="151" height="20" uuid="6d4ec617-a7bf-48ab-bee1-b5dc29ebface"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No deviations documented]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="ec17de32-e052-40cf-b794-3350f84a5577"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="514" y="0" width="20" height="20" uuid="bc9e6033-252a-4d5e-9521-b853c8db73ac">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_037}.trim().equalsIgnoreCase("No deviations documented")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="7266c93c-d290-4c21-824a-97676b31762a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Evaluation of the pathology of the specimen and selection of sample:
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="1e822267-340d-4246-8b2f-7c681ef5ee0e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Evaluation and documentation of the pathology performed by or under supervision or responsibility of a medically qualified pathologist?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="2c440bf2-d92f-438d-9ce7-c3a1b54676fd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="32a0a3d9-f2d7-4a4c-b851-a21a0ff2ff0b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_038}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="33059456-5079-4891-b6d5-136f43e984bb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="7fa094de-a14a-4cf5-adf7-61b398490c7c">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_038}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="d9b9f628-3e5f-4f1e-a759-ea0a1cc89596"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Options to select samples for protein analysis]]></text>
+			</staticText>
+		</band>
+		<band height="100">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="100" uuid="7713ea33-9680-435c-b501-79144bd51af3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Selection of appropriate parts of the primary sample for molecular analyses and histopathological analyses and further research purposes performed by medically qualified pathologist?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="100" uuid="1f021445-0f92-4db0-9ae4-ab8e1b959080"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="100" uuid="1cd51ad2-0d61-46fa-9a40-b26ca4c3d41a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_039}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="100" uuid="9a5141c7-e501-4e7c-929e-818132a99fc1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="100" uuid="fd5e7601-d4fa-40ba-9eed-2e211a579a93">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_039}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="49c497e6-e32f-4871-ac8b-ebadd4141ab1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[For macroscopic evaluation before and after freezing: Check of the clinical instructions, number, name and date of birth of patient and type of tissue documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="4016c1a3-06e2-47e1-bfc0-f7d082f87962"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="307d9bb9-fe36-4ab8-ba28-b664680c0c5d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_040}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="0d036472-652a-4553-8646-1a77263edc6e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="19773eba-c9ef-4a52-a708-db30088c7d3c">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_040}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="6ea1e474-5422-4351-9b44-f24af95898e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Description of the specimen and findings (according to clinical instruction and medical guidelines) documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="7aab5892-1554-4c35-ae37-23ee52abfb56"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c3ce788b-39ee-46d9-bdaa-6d98dcd824d1">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_041}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="196494a3-3a49-4aa4-a701-79b0941c9eaa"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="d92d64f2-7983-4719-acc8-5cf0e269ddf9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_041}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="81d97343-2b0d-4dcc-828d-d181b3ad0836"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Description of the anatomical localization documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="cb202558-5e8b-40d8-ac82-8e5249bf521d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="eb4e4ad5-cb87-4ef8-a3ca-0c3e10b2e0c5">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_042}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="3231489b-d58b-4240-b94c-a51b29e352c1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="16eff6c9-6329-4962-ba81-e84f2ec641af">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_042}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="a8710d91-ed99-434a-b0db-17851b12a710"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Tissue removal for purposes without the need of a histopathological diagnosis: done by other qualified persons than pathologists?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="0809c5f4-790d-486d-b863-8d74361a765f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="c943daa8-55bc-4662-babd-92ff04d6236a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_043}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="caf792c3-9a99-49c2-9e48-5b083afe358b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="f7ce43b0-0ce9-4a7f-b126-e9b5e415ede9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_043}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="3fd5f896-03c4-42c6-930c-2228cea82844"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[When frozen section diagnosis, selected part is frozen in an appropriate freezing medium?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="be0d9d7e-627b-4a49-96ae-0ab621636c72"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="48c99d2b-b1b1-4b08-a49f-daa59096b140">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_044}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="8fb3730f-8c25-45d7-8a88-f3e25fc388bd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="6edfe8fb-ba92-42e9-a36c-aa817625f461">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_044}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="5d0c830e-85f5-4499-867b-95c3729feae6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[When frozen selection diagnosis is needed - evaluation performed and documented by a medically qualified pathologist (or under his/her supervision or responsibility)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="ce04e40f-3721-450c-93a0-bde825fc0a9a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="cc094329-795a-44c3-992f-eae0dbe9f789">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_045}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="1a9fc562-d9d5-41af-9681-2d635149e09a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="175729a1-b8c4-4db7-ac2e-bb6acc0ad283">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_045}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="1fb781a9-d75f-488b-8619-b08e8c351a66"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Cryo-storage of specimen:
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="3531c517-86bb-4a62-a784-cc5b3446629a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Freezing procedure documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="46ae0d9e-9a62-4609-8466-9391683ea3ac"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="37adb586-b52d-4886-a771-e4aafa0bc6cf">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_046}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="8f6224e4-51b2-4507-a9d9-34e16f69ba55"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="771ced33-4581-419e-84bb-1d92e07989f2">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_046}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="ee6242c5-bc52-4c1c-bd3e-53d243a377fb"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Freezing time point and date documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="cfb16b23-74ce-4089-9fb3-e4017eb85572"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="4f75631f-52be-42fe-a515-303c9f1ed39e">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_047}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="e57225c0-e841-4683-8540-325505151f29"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="80183987-a052-48bd-887a-4c036d060b24">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_047}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="50d1bc2c-2c8e-4f00-8bf2-fe6643f0be4b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample size considered?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="316153fa-be33-4f86-91d9-2ffb72a01109"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="1c870741-1d17-4baa-aa50-df88bea683d9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_048}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a6e2097f-884e-47a9-a690-a7f0085d82d9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="d4f9c807-8ee5-4e30-94f7-47a51fb6c658">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_048}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="6c58e6a7-f2df-43fe-99d6-995a0c1bf313"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Appropriate sample container for cryo storage selected?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="68523713-c8b6-4c01-bbf7-75af72571d5b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="7bf6244a-09d7-4298-abd3-cdd852c29c0f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_049}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="7d37d47f-8bca-4d7d-a82e-e5a49e6141ea"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="dc679bb4-39dd-44bb-8564-f7b0f919783f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_049}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="bc6579be-703e-40f7-9202-9e173e5d02bc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Labelling for frozen storage appropriate?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="c8a50035-768b-4f5f-ad3a-1793081b2932"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="6293bf6f-aee6-4781-8552-be7f709763be">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_050}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="466b2ea1-f937-4d87-a73e-7334523425e6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8c6a374c-dfa0-4085-88cf-5a2618b060fe">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_050}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="f2ab60ce-7417-4164-a88c-970a8ac2eef0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[Labelling of containers contains minimum information:
+]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="aa1c89af-0a13-4480-abf2-2ca59bcbed5a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Donor ID documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="19052b56-ed83-49f9-abc3-0fc56a9e2b70"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="5d4c0ff4-59f4-413c-a417-a34bf45c61b9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_051}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="7280172b-a5f6-4dd0-b890-dbd56952b1c4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="08ec3efc-08eb-467e-b29a-3f4b54105e08">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_051}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="c2704ce6-afe2-4a35-a98b-336f57d68c05"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Basic info such as tissue type and disease(in case it is not available within the tracking system)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="d10ad241-0815-45e5-89ec-ab5e1c3082a5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="53514a04-5c6d-4889-8b45-fc0a1a55ec79">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_052}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="33c42ed4-cfcc-43ee-9049-13029924c4e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="cc74b6a0-bc8f-464a-b503-30e8a2dde5ac">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_052}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="af4c8ef5-dc30-445b-8620-80168d9be81c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Unique cryo-container numbering present?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="d448dc07-4a37-4969-a7c1-b29fc61d6baa"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8523bf34-b771-428d-8161-c9b83e94a8d0">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_053}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="385c30b8-9555-4e41-8a7c-c863eb4ae388"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="6ed6882c-c65c-4a85-b7ba-5024b092f1a2">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_053}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="0eba8d8e-f270-44f4-b066-137b029868d0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Types, quantity and description of all samples in a single container documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="df57dd86-b451-432e-890f-688b1fbe9f34"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c025f864-341a-4a22-aa47-3d470ffead0b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_054}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="3975af3e-5c3e-46d4-bce8-745b791ee5c0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="be0ea440-3521-4b82-8b91-e6da62fb834f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_054}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="dbdb3ac3-1b16-485d-9c53-ce7e69095bb6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Storage temperature conditions: 
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="7af7025e-315e-43cb-a649-712f59ef60b9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage below -70°C constant temperature?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="ca7044ff-f99e-468c-97ce-4384c00713d5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3e084468-56a9-40fa-895e-703457f0ec10">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_055}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="55ed5a30-e164-4243-9580-9d2378616b63"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="0b294d95-ed99-4f37-907b-ee1ac8187f30">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_055}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="efee4836-557f-4877-833a-fd73e19e0f00"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Temperature monitored?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="6b0cd440-d067-414c-9270-37548e41c8a8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="5f0b3c24-de8c-4650-bdf7-002cf5a2ae7f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_056}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="22fe088c-cc7f-4d1f-842f-3b3e7878aa5e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3e871ba1-dd77-49e0-811b-0bbd11faafd4">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_056}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="78cb8e10-3446-48d9-8358-2186e3aef02b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Temperature shifts documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="586d7e78-68a7-4c8b-a34d-459c5b33e358"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="82044dfb-6262-4b66-9b9c-df65797046cc">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_057}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="eaf4884c-1095-4078-8fe2-10301d9c6c0b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="be05321f-7d3a-4f1c-8e9f-a4bdc65fe86b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_057}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="6d0a0916-551f-4194-834e-c28c9a612589"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Freezers/cryo tanks with temperature alarm system are used?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="4e1d2955-cf33-47c3-a015-f1901f9a111f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="ce899ba6-494f-4243-ad11-e8eef804a712">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_058}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="5b964ac1-53d0-402a-bee0-83bcb72d02ec"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="3e98a66a-b432-456c-90f2-89925b3488b1">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_058}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="8ce15c36-67de-408a-98bd-801a084d7c8f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Back-up cryo-storage is provided?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="67ea570d-2437-41a9-bb16-d83b500d5d30"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="a15d7059-5c88-4c49-bcb4-df252b95b728">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_059}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="fa6dde42-5fd0-4f16-bdcd-132d3dc492f1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="858aebd1-0ee7-49e7-85d9-c9b6f1319cbe">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_059}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="e2f339c9-39c0-44e8-9896-5508318c5a4a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Storage place and retrieval: 
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="64653eac-0354-430b-8cd3-924fc5ab65f8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage position is documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="9387def6-aae9-4bcb-a930-50cc3846650b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="dde1c6b0-cc2c-4e24-8813-14a8118b958c">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_060}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="15094a16-0686-4522-b84d-8dc449a595e2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="9e16ca10-fa78-436c-b888-ffc57ac10062">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_060}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="fb9d9c6a-1e0c-432b-a803-3b826f2c21bc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Storage temperature is documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="deeb8421-d360-4b57-9819-39d497239ff8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="62cb7a48-cc26-4487-9faf-c4ff61ff2d1b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_061}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="76d48652-212d-4985-aace-a7aff7140f01"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="a40ce0a4-bac7-47f2-a65f-c728604208a7">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_061}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="5b04b1e3-7d98-49cf-a2f1-d507f4111478"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Sample retrieval time and date is documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="091c1d23-4939-465c-bfe2-eb175d956bd4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3c41fc61-90a8-47ab-9a2b-caa595c5d9c5">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_062}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="2f173c63-2eed-48d1-8429-60a3a34d88f6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="f272f093-156a-4cfe-bc92-aef40d856131">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_062}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="8fe4b0ab-6a09-42c5-8bf8-26172420cb91"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Biobank stores snap frozen tissue samples for intended use of isolation of total protein?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="e38fe472-4813-4d27-8c08-eb1a1e4d41fc"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f8a58a59-a8ed-492c-98ed-37ba13ea439f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_063}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="03795d83-688e-4694-a83d-8aa5e9563409"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="5b10ce0d-2480-4560-ae41-86c70a4b53c9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_063}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="24c95535-102e-4543-a3a1-7abb299a51cd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is total protein isolated at your biobank?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="25" uuid="a360c1ec-6fc8-4267-a8aa-b881530fffa2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="553991a7-4f3a-4f31-a244-311a529f48f1">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_064}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="25" uuid="5c46c80d-482a-4433-acf8-b7652b8fe86d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="25" uuid="51c8db74-8d0b-461a-bafb-7a626cbf82a3">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_064}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="177e1022-27cb-4add-b9cd-2d9e299575c9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Isolation of total protein:
+
+     ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="d831dcac-b330-45d6-80ef-2207aa6a23e1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="2ebc042b-f9d1-4336-bee4-fb8d3776b67a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="894ea8d2-a94c-467e-a1be-0ae3cd299603">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_065}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="2f0b06ca-c4fc-4274-8705-a73731fa1a96"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7c62ff3e-351f-413f-ab04-3a85e7f5247e">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_065}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="f4132e46-4f80-452f-98e9-87a57adb1fc6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Is any unintended thawing of the tissue observed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="4ad7dd4f-cd11-4c73-b3d5-e00ff2929796"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="c0dfcf2e-a707-462a-aacb-0bff7f552725">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_066}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="bca9329c-b3b8-485e-a4f6-bd41e80a776f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="01b8bcd5-b734-4a78-8b7f-ce165d3ad3c0">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_066}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="a7199575-6956-40bb-afab-bd6d9f5a4e67"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Tissue sample throughly minced or cut into small pieces in it's frozen state and throughly dispersed with lysis puffer containing inhibiting substances?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="7805f409-2d08-4282-b7f1-1fca7e4c027b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="8eb2c364-6e08-41d3-80f1-1ab320c685ee">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_067}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="bc8456f4-ae16-43e9-80aa-c03fe40c5aa7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="13fde478-9714-4a7c-817d-99911878658a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_067}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="7b512360-46a6-4aee-beb8-c5a4c5b98a44"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Homogenization of frozen tissue sample in lysis buffer processed immediately?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="7d4b5b04-b1d0-406a-b7a2-209a3bd9b401"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="397f24eb-44ae-4f81-a9a2-2406098d130a">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_068}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="5076ae30-cc0b-450b-8983-6fd52771ed7f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="2645db73-151f-41d6-9d58-99fe5722b956">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_068}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="70">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="70" uuid="47ed5f5c-73fe-4c4a-a7eb-610de6a90469"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[All materials for protein isolation sterile and cooled below freezing point before use (excl. lysis buffer and buffer vial)?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="70" uuid="d8448d39-0c58-4236-a3a3-5ee4df29df1e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="79d0f846-75be-467a-826e-c289be8f5803">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_069}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="70" uuid="4a4d5a78-55f4-4fee-aa92-aa1960360cf6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="70" uuid="4040328e-60cb-4644-9bfb-474a45241746">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_069}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="63fd987f-f212-4b4e-8056-be39ae2f298e"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Process from protein isolation to final analytical test validated according to internal QMS?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="3bbb932e-f915-49f1-bbd3-afc3ca6f9a08"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="7aa29154-9d1b-473f-94db-71927c659379">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_070}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="b86212ce-20c9-4e6b-845b-2057f3cdbbf3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4fefde8e-d657-4cb9-aeb2-0c9a5cc780b9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_070}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="60" uuid="e8c9dcba-37b8-4a00-ac20-42f441c57c3d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Which protein isolation method is used?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="83" height="20" uuid="881493c7-bb33-4662-afea-5f1b7d140d87"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[commercial kit]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="405" y="0" width="20" height="20" uuid="4caa5b76-8a4f-4b80-90d6-3860e350868a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="405" y="0" width="20" height="20" uuid="ca39ed3e-0451-4cfc-8dbc-65517fe39831">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_071}.trim().equalsIgnoreCase("commercial kit")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="322" y="20" width="145" height="20" uuid="0ae1e172-d5d9-4374-8ba5-e0de4a5c7101"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[laboratory's own protocol]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="467" y="20" width="20" height="20" uuid="70678c82-5da3-4f26-bfc1-e5f46493541a"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="467" y="20" width="20" height="20" uuid="92c140ce-9266-4770-a63b-b5b79cb14560">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_071}.trim().equalsIgnoreCase("laboratory's own protocol")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="487" y="20" width="25" height="20" uuid="14082cb8-dda4-48b0-9404-89732edd9b62"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[both]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="512" y="20" width="20" height="20" uuid="1d827108-4250-4208-9fa8-992fffe368d4"/>
+				<imageExpression><![CDATA["unchecked.png"]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="512" y="20" width="20" height="20" uuid="eeb8cb05-cfd3-43e2-81f3-5398ed9957c3">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_071}.trim().equalsIgnoreCase("both")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["checked.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="b948284d-aec2-4722-967d-d151a7b0a1c1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Using a commercial kit:
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="3d3d0595-9f45-4fb0-b5c8-8a666267485b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein isolation method (kit) documented?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="1f9e8f04-f829-4636-b5b1-72c97ba6a3e0"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="3a536c83-79d7-474d-8c9f-c1addce8295c">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_072}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="a9002c0e-cfbb-421d-a136-dd447e5dbce5"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="2736d235-395c-4246-ae14-3ace529d4dec">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_072}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="e1c2c8ee-9cf5-4410-abfa-28a169b17e99"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Manufacturer's instructions for use followed and documented?  
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="8dbdbdda-bc42-44cf-9a5c-340bcf3fa879"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="70bdddbe-043c-479c-b27f-cd83148d23b8">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_073}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="6c6ce21b-b60a-4ab7-a6ad-655f31ca2899"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="726c442e-7438-4969-93e4-69e77b41027f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_073}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="38ae023f-96d0-4412-aee5-cdeceef75863"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[If any deviations to the protocol occur, these deviations are documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="3431bdc5-0aa6-4036-b752-d7c0616e270b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="e4c563b6-7cca-4f19-8d17-3ddc88249b47">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_074}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="9e609245-497d-472f-814a-79928ad25851"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="d7d1de74-2f93-47e5-a05c-2ea85eb09c53">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_074}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="9c458f44-7a8f-46b2-a09c-48346144276d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Deviations to the protocol observed and documented?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="16c4c5c3-f4fb-456b-adc5-5aca11f73cb9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="861b20a1-90f9-4182-b99a-fa543decf3ef">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_075}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="7d612082-a32b-4e61-9055-5a03959243a4"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="b53f0e0b-bdbb-4904-a952-4d091f3bceed">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_075}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="28a609a9-3c6b-47c2-b97d-16fb8fd22193"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Using a laboratories own protocol:
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="d559e682-3b2b-4b6b-bcdd-4b1f7aacdc79"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Laboratory Protein isolation method validated as fit for purpose?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="bd7bdd5f-420c-41db-91e9-d647202fc9e7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="25c9a826-7946-42c3-ab67-15583c3d0b99">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_076}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="622c1f58-d3b9-4534-b829-ebe59e6cb54c"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="f44ceab8-ecc8-497e-b8d0-f96c3dbc4162">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_076}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="aa2eb18e-7c32-4897-b0fd-e3c8d2fdfada"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Laboratory protein isolation instructions for use followed and documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="43a6d4e2-32ac-4262-b695-0f220c679ac7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="522c2fbe-3534-4914-8308-e35342b5f13d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_077}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="9a9d5cfc-8541-410e-a47e-8e89a74e0414"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4e9f9633-c282-4ff4-b494-e35242ab734f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_077}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="a3518188-6140-48b1-9b28-e72f7738589d"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[If any deviations to the protocol occur, this deviations are documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="2115d910-6a4f-4aa2-9855-82bd61d68008"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="4b1f4a9d-f138-4541-ba30-3aeaf4e831a9">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_078}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="2f130cb3-8990-41c6-b4aa-88da59bc91e3"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="81104ac5-55fe-4520-b78f-ed86fc35a57f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_078}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="6a46cd39-8338-47d0-b953-47afd4f702df"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Deviations to the protocol observed and documented?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="6b90498c-3642-4667-83d8-c2071dcd7195"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="91489ed7-7c47-4bc8-9784-1b6789442a56">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_079}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="48b527f2-cc11-41d3-aedb-91bb34ae0e43"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e7814ef9-e444-4258-bdeb-2c2477ff8b81">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_079}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="28b1a20b-dee3-4460-9c28-402f5278e92f"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Quantity and quality assessment of protein
+-
+Protein quantity and quality by one or more of these methods checked (according to manufacturers instructions or validated protocol):
+
+    ]]></text>
+			</staticText>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="85" uuid="36ee6f08-cfd5-449e-a509-119538ddd63b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Up-front check of the protein quality and quantity by generally accepted physical, chemical or biomedical procedures/controls documented?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="85" uuid="272b1a88-8faa-492b-b032-d1c2ecd07ce1"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="3384769e-1195-45c3-b873-3d65e6f7a53b">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_080}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="85" uuid="324e8c8f-e9d2-4dd9-be46-9b9ce56f0204"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="85" uuid="e2344ebd-1410-4bae-a446-4127df35a65d">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_080}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="60">
+			<staticText>
+				<reportElement positionType="Float" x="0" y="0" width="545" height="60" uuid="a44966a7-b7dd-4607-81a7-da1567985294"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="14" isBold="true" pdfFontName="net/sf/jasperreports/fonts/dejavu/DejaVuSerif-Bold.ttf" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[
+Storage of isolated protein:
+
+   ]]></text>
+			</staticText>
+		</band>
+		<band height="55">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="55" uuid="ca487e9b-b6c6-43c5-906b-f50c1fe01148"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Kit manufacturers' or Laboratory storage recommendations/instruction followed?
+<font color="#ec6607">shall</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="55" uuid="6b6701b5-70da-4d4e-9b3b-422b6852d4d2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="bf9c9082-f371-4157-8c25-99ee489319e3">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_081}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="55" uuid="e88a0247-ba6a-4c92-bba9-75d7c1400c4a"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="55" uuid="d2b3f335-fae5-4f45-992c-a8ecb11631aa">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_081}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="7b6aa755-2c3d-49c2-9707-37ebe94388cd"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Protein stored/archived at -70 °C or below?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="4097c963-336f-477c-8811-964f431c28d7"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="b0aedbc5-fc1f-436a-8ee7-1d0f78a690d5">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_082}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="c9b04447-c773-4ac3-aa16-ec526ecaf9ac"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="d837245c-4bb4-407f-a3d9-399f2b320c78">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_082}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="6947224f-17e4-4580-8449-637adaac87b9"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Appropriate storage vessels used?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="67e54f10-71e2-4037-99a7-4c61bf5cf119"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="e59871ec-cee4-467c-9f75-cc1292a7057f">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_083}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="6e6218aa-dcfd-4289-b4f7-9744efd80a65"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="0d5ae6e5-8c4a-4df7-aaac-de24883fd4da">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_083}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="dbb5efa5-8a9d-4f63-a327-e7bd8c74ff50"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Date of freezing/archiving documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="5f6251aa-ef55-4cca-9822-26c4380090ac"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="764c3406-2816-4803-a815-67d1aea6dcb3">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_084}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="41c51ed8-c174-4150-829c-9f221ab0ca90"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="40848431-1353-4312-af75-3e3e1f8850d2">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_084}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="b4c2d07a-f298-4b23-bd6d-5845d4cf9ec6"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Each thawing and refreezing documented?
+<font color="#004280">should</font>]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="97e2744c-21d6-4027-be3f-855f0c285102"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="8cb9d49e-effe-4b3a-851c-b87634aedcc0">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_085}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="56bc9d07-950b-44bd-b87b-9fc6f3ba1765"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="5906861f-a374-4bfa-93dd-c5c09b836097">
+					<printWhenExpression><![CDATA[$F{snap_frozen_proteins_085}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="40">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="40" uuid="14c1efc3-31e8-4251-8725-3c78cb72601b"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Do you want to submit your data to BBMRI-ERIC?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="0" width="25" height="40" uuid="e9fd61a3-afaa-4bf4-95fd-7ad8e31943b8"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Yes]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="7b857c4a-ad22-41fc-bc66-d69a1c67e2a0">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("Yes")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["yes.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="422" y="0" width="25" height="40" uuid="c8bec7f9-3b79-4c51-9372-d800785ff9ab"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No]]></text>
+			</staticText>
+			<image vAlign="Middle">
+				<reportElement x="347" y="0" width="125" height="40" uuid="c1bd703d-337f-4d45-9d8e-b23a44ae6a9d">
+					<printWhenExpression><![CDATA[$F{eric_submission}.trim().equalsIgnoreCase("No")]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA["no.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="25">
+			<staticText>
+				<reportElement x="0" y="0" width="272" height="25" uuid="ddb3ee68-675f-4484-9b3a-562cc7db3c83"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Additional Notes]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="322" y="0" width="222" height="25" uuid="cee5cf66-c42f-4450-8bbf-458fedc6f721"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{snap_frozen_proteins_086}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
