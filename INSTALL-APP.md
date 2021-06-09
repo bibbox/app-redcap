@@ -4,31 +4,9 @@
 
 2.) Enter the docker container from terminal with `sudo docker exec -it CONTAINER-ID bash` (Replace CONTAINER-ID with ID from redcap docker container `sudo docker ps`).
 
-3.) Open the following files with "nano" and comment out everything, except what is mentioned here:
+3.) Find the Mail configuration within ./config/msmtprc
 
-    # /etc/ssmtp/ssmtp.conf
-    
-    rewriteDomain=
-    root=YOUR-ADDRESS@gmail.com
-    mailhub=smtp.gmail.com:587
-    hostname=smtp.gmail.com
-    FromLineOverride=YES
-    UseSTARTTLS=YES
-    AuthUser=YOUR-ADDRESS@gmail.com
-    AuthPass=YOUR-PASSWORD
-
-and
-
-    # /etc/ssmtp/revaliases
-    
-    root:YOUR-ADDRESS@gmail.com:smtp.gmail.com:587
-    localusername:YOUR-ADDRESS@gmail.com:smtp.gmail.com:587
-
-
-  **Make sure you replace the mail address and SMTP settings with your correct settings and save the files, then restart the RedCap app from the BIBBOX app dashboard!**
-
-
-4.) Open up FileZilla or similar FTP tool and connect to your BIBBOX.
+4.) Open up FileZilla or similar tool and connect to your BIBBOX.
 
 5.) Navigate to `/opt/bibbox/application-instance/YOUR-REDCAP-ID-app-redcap/data/www` and copy all contents of RedCap source files (`redcap7.zip/redcap/*`) to this directory via FTP.
 
@@ -75,11 +53,3 @@ and
 14.) That's it!
 
 ![5](install-screen-05.jpg)
-
-
-
-## After the installation
-
-Have a nice ride with the new Admins youngtimer.
-
-![FINAL](install-screen-final.jpg)
