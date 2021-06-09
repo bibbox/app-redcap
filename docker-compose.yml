@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.3'
 
 networks:
   bibbox-default-network:
@@ -23,8 +23,7 @@ services:
       - .env
 
   dev-redcap-apache:
-    build: ./images/redcap-apache
-    container_name: dev-redcap-apache
+    image: bibbox/redcap:v10-8-4
     command: "/bin/sh -c 'exec apache2-foreground'"
     restart: unless-stopped
     networks:
@@ -48,4 +47,4 @@ services:
     links:
       - dev-redcap-apache:redcapapp
     volumes:
-      - ./data/jobber/.jobber:/home/jobberuser/.jobber
+      - ./config/.jobber:/home/jobberuser/.jobber

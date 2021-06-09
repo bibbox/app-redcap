@@ -1,0 +1,22 @@
+version: 1.4
+prefs:
+  logPath: /home/jobberuser/jobber.log
+  runLog:
+    type: file
+    path: /home/jobberuser/runlog
+    maxFileLen: 100m
+    maxHistories: 2
+jobs:
+  HeapRedCapCronjob:
+    cmd: wget -q -O /dev/null -o /dev/null "http://redcapapp/cron.php"
+    time: 0 * * * *
+    onError: Continue
+
+resultSinks:
+  - &filesystemSink
+    type: filesystem
+    path: /home/jobberuser/job-results
+    data:
+      - stdout
+      - stderr
+    maxAgeDays: 10

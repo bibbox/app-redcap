@@ -49,5 +49,5 @@ services:
     links:
       - §§INSTANCE-redcap-apache:redcapapp
     volumes:
-      - ./data/jobber/.jobber:/home/jobberuser/.jobber
+      - ./config/.jobber:/home/jobberuser/.jobber
       

@@ -17,6 +17,10 @@
 	{
             "source":"config/php-extensin.ini",
             "destination":"config/php-extensin.ini"
+        },
+	{
+            "source":"config/.jobber",
+            "destination":"config/.jobber"
         }
     ]
 }
