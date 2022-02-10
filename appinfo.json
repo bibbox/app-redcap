@@ -3,7 +3,7 @@
 	"short_name": "RedCap",
 	"version": "v10.8.4",
 	"description": "REDCap is a secure web application for building and managing online surveys and databases. While REDCap can be used to collect virtually any type of data (including 21 CFR Part 11, FISMA, and HIPAA-compliant environments), it is specifically geared to support online or offline data capture for research studies and operations. The REDCap Consortium, a vast support network of collaborators, is composed of thousands of active institutional partners in over one hundred countries who utilize and support REDCap in various ways.",
-       	"short_description": "Survey Management System",
+        "short_description": "Survey Management System",
 	"catalogue_url": "",
 	"application_url": "https://projectredcap.org/",
 	"tags": ["Survey"],

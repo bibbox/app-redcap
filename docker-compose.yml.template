@@ -5,29 +5,29 @@ networks:
     external: true
 
 services:
-  dev-redcap-db:
+  §§INSTANCE-redcap-db:
     image: mariadb:10.6
-    container_name: dev-redcap-db
+    container_name: §§INSTANCE-redcap-db
     restart: unless-stopped
     networks:
       - bibbox-default-network
     environment:
-      - MYSQL_ROOT_PASSWORD=thispasswordisneverusedeveninsidethecontainer
-      - MYSQL_DATABASE=redcap
-      - MYSQL_USER=redcap
-      - MYSQL_PASSWORD=redcap4bibbox
+      - MYSQL_ROOT_PASSWORD=§§MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE=§§MYSQL_DATABASE
+      - MYSQL_USER=§§MYSQL_USER
+      - MYSQL_PASSWORD=$$MYSQL_PASSWORD
     volumes:
       - ./data/mysql:/var/lib/mysql
       - ./data/config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf
 
-  dev-redcap-apache:
+  §§INSTANCE-redcap-apache:
     image: bibbox/redcap:v10-8-4
     command: "/bin/sh -c 'exec apache2-foreground'"
     restart: unless-stopped
     networks:
       - bibbox-default-network
     links:
-      - dev-redcap-db:redcap-db
+      - §§INSTANCE-redcap-db:redcap-db
     ports:
       - "8080:80"
     volumes:
@@ -36,25 +36,36 @@ services:
       - ./data/config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini
       - ./data/config/msmtprc:/etc/msmtprc
     environment:
-      - DATABASE=redcap
-      - DB_USER=redcap
-      - DB_PASSWORD=redcap4bibbox
+      - DATABASE=§§MYSQL_DATABASE
+      - DB_USER=§§MYSQL_USER
+      - DB_PASSWORD=$$MYSQL_PASSWORD
+    proxy:
+     TYPE: PRIMARY
+     URLPREFIX: §§INSTANCE
+     TEMPLATE: default
+     DISPLAYNAME: 'RedCap'  
 
-  bibbox-adminer:
+ bibbox-adminer:
     image: adminer:4.8.1
     container_name: bibbox-redcap-adminer
     networks:
       - bibbox-default-network
 
     links:
-      - dev-redcap-db:db
+      - §§INSTANCE-redcap-db:db
     restart: unless-stopped
     ports:
        - "8096:8080" 
     environment:
         ADMINER_DEFAULT_DB_DRIVER: mysql
         ADMINER_DEFAULT_DB_HOST: db
-        ADMINER_DEFAULT_DB_NAME: redcap
+        ADMINER_DEFAULT_DB_NAME: §§MYSQL_DATABASE
+    proxy:
+     TYPE: PRIMARY
+     URLPREFIX: §§INSTANCE-adminer
+     TEMPLATE: default
+     DISPLAYNAME: 'RedCap-Adminer'  
+
 
 #  dev-redcap-jobber:
 #    image: jobber:1.4-alpine3.11

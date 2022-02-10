@@ -1,1 +1,39 @@
-[]
+[
+    {
+        "id":"§§MYSQL_ROOT_PASSWORD",
+        "display_name":"MySQL ROOT Password",
+        "type":"text",
+        "default_value":"thispasswordisneverusedeveninsidethecontainer",
+        "description":"ROOT Password for MySQL DB, please change for production",
+        "min_length": "1",
+        "max_length": "128"
+     },
+     {
+        "id":"§§MYSQL_DATABASE",
+        "display_name":"MySQL Database",
+        "type":"text",
+        "default_value":"redcap",
+        "description":"Database name for redcap database in MySQL",
+        "min_length": "1",
+        "max_length": "128"
+     },
+     {
+        "id":"§§MYSQL_USER",
+        "display_name":"MySQL Username",
+        "type":"text",
+        "default_value":"redcap",
+        "description":"Username for MySql",
+        "min_length": "1",
+        "max_length": "128"
+     },
+     {
+        "id":"$$MYSQL_PASSWORD",
+        "display_name":"MySQL Password",
+        "type":"text",
+        "default_value":"redcap4bibbox",
+        "description":"Password for MySQL DB, please change for production",
+        "min_length": "1",
+        "max_length": "128"
+     },
+     
+]
