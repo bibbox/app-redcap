@@ -1,7 +1,26 @@
 {
   "makefolders":[
-    "data/var/lib/mysql",
-    "data/www"
+    "data/mysql",
+    "data/jobber",
+    "data/html",
+    "data/user-uploaded-documents",
+    "config/reporting"
   ],
-  "copyfiles":[]
+  "copyfiles":[  {
+            "source":"config/mariadb.cnf",
+            "destination":"config/mariadb.cnf
+        },
+        {
+            "source":"config/msmtprc",
+            "destination":"config/msmtprc"
+        },
+	{
+            "source":"config/php-extensin.ini",
+            "destination":"config/php-extensin.ini"
+        },
+	{
+            "source":"config/.jobber",
+            "destination":"config/.jobber"
+        }
+    ]
 }

@@ -1,51 +1,50 @@
-version: '2'
+version: '3.3'
+
+networks:
+  bibbox-default-network:
+    external: true
 
 services:
-  bibbox-redcap:
-    image: bibbox/redcap
-    container_name:  bibbox-redcap
+  dev-redcap-db:
+    image: mariadb:10.6
+    container_name: dev-redcap-db
     restart: unless-stopped
-    links:
-      - bibbox-redcap-db:redcap-db
-    ports:
-      - "8095:80"
-    depends_on:
-      - bibbox-redcap-db
-      - bibbox-redcap-data
-    volumes_from: 
-      - bibbox-redcap-data
-
-  bibbox-adminer:
-    image: adminer
-    container_name: bibbox-redcap-adminer
-    links:
-      - bibbox-redcap-db:db
-    restart: unless-stopped
-    ports:
-       - "8096:8080" 
+    networks:
+      - bibbox-default-network
     environment:
-        ADMINER_DEFAULT_DB_DRIVER: mysql
-        ADMINER_DEFAULT_DB_HOST: redcap-db
-        ADMINER_DEFAULT_DB_NAME: redcap
-
-  bibbox-redcap-db:
-    image: mariadb
-    container_name: bibbox-redcap-db
-    restart: unless-stopped
-    user: root
-    environment:
-      - MYSQL_ROOT_PASSWORD=thispasswordisneverusedeveninsidethecontainer
-      - MYSQL_DATABASE=redcap
-      - MYSQL_USER=redcap
-      - MYSQL_PASSWORD=redcap4bibbox
-    volumes_from: 
-      - bibbox-redcap-data
-    depends_on:
-      - bibbox-redcap-data
-
-  bibbox-redcap-data:
-    image: busybox
-    container_name: bibbox-redcap-data
+      - MYSQL_ROOT_PASSWORD=${ENV_MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${ENV_MYSQL_DATABASE}
+      - MYSQL_USER=${ENV_MYSQL_USER}
+      - MYSQL_PASSWORD=${ENV_MYSQL_PASSWORD}
     volumes:
-      - ./data/var/lib/mysql:/var/lib/mysql
-      - ./data/www:/redcap_webroot
+      - ./data/mysql:/var/lib/mysql
+      - ./config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf
+    env_file:
+      - .env
+
+  dev-redcap-apache:
+    image: bibbox/redcap:v10-8-4
+    command: "/bin/sh -c 'exec apache2-foreground'"
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    links:
+      - dev-redcap-db:db
+    ports:
+      - "9040:80"
+    volumes:
+      - ./data/html:/var/www/html
+      - ./data/user-uploaded-documents:/opt/uploads
+      - ./config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini
+      - ./config/msmtprc:/etc/msmtprc
+
+  dev-redcap-jobber:
+    image: jobber:1.4-alpine3.11
+    container_name: dev-redcap-jobber
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    links:
+      - dev-redcap-apache:redcapapp
+    volumes:
+      - ./config/.jobber:/home/jobberuser/.jobber

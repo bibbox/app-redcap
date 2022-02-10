@@ -1,4 +1,4 @@
-version: '2'
+version: '3.8'
 
 networks:
     bibbox-default-network:
@@ -6,7 +6,7 @@ networks:
 
 services:
   §§INSTANCE-redcap:
-    image: bibbox/redcap
+    image: bibbox/redcap:v10-8-4
     container_name:  §§INSTANCE-redcap
     restart: unless-stopped
     networks:
@@ -18,11 +18,14 @@ services:
     depends_on:
       - §§INSTANCE-redcap-db
       - §§INSTANCE-redcap-data
-    volumes_from: 
-      - §§INSTANCE-redcap-data
+    volumes:
+      - ./data/html:/var/www/html
+      - ./data/user-uploaded-documents:/opt/uploads
+      - ./config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini
+      - ./config/msmtprc:/etc/msmtprc
 
   §§INSTANCE-redcap-db:
-    image: mysql:8
+    image: mariadb:10.6
     container_name: §§INSTANCE-redcap-db
     restart: unless-stopped
     networks:
@@ -33,15 +36,18 @@ services:
       - MYSQL_DATABASE=redcap
       - MYSQL_USER=redcap
       - MYSQL_PASSWORD=redcap4bibbox
-    volumes_from: 
-      - §§INSTANCE-redcap-data
-    depends_on:
-      - §§INSTANCE-redcap-data
-
-  §§INSTANCE-redcap-data:
-    image: busybox
-    container_name: §§INSTANCE-redcap-data
+      volumes:
+        - ./data/mysql:/var/lib/mysql
+        - ./config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf
+  
+  §§INSTANCE-redcap-jobber:
+    image: jobber:1.4-alpine3.11
+    container_name: §§INSTANCE-redcap-jobber
+    restart: unless-stopped
+    networks:
+      - bibbox-default-network
+    links:
+      - §§INSTANCE-redcap-apache:redcapapp
     volumes:
-      - ./data/var/lib/mysql:/var/lib/mysql
-      - ./data/www:/redcap_webroot
-
+      - ./config/.jobber:/home/jobberuser/.jobber
+      
