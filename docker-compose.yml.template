@@ -45,9 +45,9 @@ services:
      TEMPLATE: default
      DISPLAYNAME: 'RedCap'  
 
- bibbox-adminer:
+ §§INSTANCE-adminer:
     image: adminer:4.8.1
-    container_name: bibbox-redcap-adminer
+    container_name: §§INSTANCE-redcap-adminer
     networks:
       - bibbox-default-network
 
