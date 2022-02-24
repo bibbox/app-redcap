@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3'
 
 networks:
   bibbox-default-network:
@@ -66,14 +66,3 @@ services:
      TEMPLATE: default
      DISPLAYNAME: 'RedCap-Adminer'  
 
-
-#  dev-redcap-jobber:
-#    image: jobber:1.4-alpine3.11
-#    container_name: dev-redcap-jobber
-#    restart: unless-stopped
-#    networks:
-#      - bibbox-default-network
-#    links:
-#      - dev-redcap-apache:redcapapp
-#    volumes:
-#      - ./config/.jobber:/home/jobberuser/.jobber
