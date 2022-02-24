@@ -60,9 +60,9 @@ services:
         ADMINER_DEFAULT_DB_DRIVER: mysql
         ADMINER_DEFAULT_DB_HOST: db
         ADMINER_DEFAULT_DB_NAME: §§MYSQL_DATABASE
-    proxy:
-     TYPE: PRIMARY
-     URLPREFIX: §§INSTANCE-adminer
-     TEMPLATE: default
-     DISPLAYNAME: 'RedCap-Adminer'  
+#    proxy:
+#     TYPE: PRIMARY
+#     URLPREFIX: §§INSTANCE-adminer
+#     TEMPLATE: default
+#     DISPLAYNAME: 'RedCap-Adminer'  
 
