@@ -23,6 +23,7 @@ services:
   §§INSTANCE-redcap-apache:
     image: bibbox/redcap:v10-8-4
     command: "/bin/sh -c 'exec apache2-foreground'"
+    container_name: §§INSTANCE-redcap-apache
     restart: unless-stopped
     networks:
       - bibbox-default-network
@@ -50,7 +51,6 @@ services:
     container_name: §§INSTANCE-redcap-adminer
     networks:
       - bibbox-default-network
-
     links:
       - §§INSTANCE-redcap-db:db
     restart: unless-stopped
