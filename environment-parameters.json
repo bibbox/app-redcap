@@ -1,6 +1,6 @@
 [
     {
-        "id":"§§MYSQL_ROOT_PASSWORD",
+        "id":"MYSQL_ROOT_PASSWORD",
         "display_name":"MySQL ROOT Password",
         "type":"text",
         "default_value":"thispasswordisneverusedeveninsidethecontainer",
@@ -9,7 +9,7 @@
         "max_length": "128"
      },
      {
-        "id":"§§MYSQL_DATABASE",
+        "id":"MYSQL_DATABASE",
         "display_name":"MySQL Database",
         "type":"text",
         "default_value":"redcap",
@@ -18,7 +18,7 @@
         "max_length": "128"
      },
      {
-        "id":"§§MYSQL_USER",
+        "id":"MYSQL_USER",
         "display_name":"MySQL Username",
         "type":"text",
         "default_value":"redcap",
@@ -27,7 +27,7 @@
         "max_length": "128"
      },
      {
-        "id":"§§MYSQL_PASSWORD",
+        "id":"MYSQL_PASSWORD",
         "display_name":"MySQL Password",
         "type":"text",
         "default_value":"redcap4bibbox",
