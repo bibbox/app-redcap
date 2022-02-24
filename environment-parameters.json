@@ -27,7 +27,7 @@
         "max_length": "128"
      },
      {
-        "id":"$$MYSQL_PASSWORD",
+        "id":"§§MYSQL_PASSWORD",
         "display_name":"MySQL Password",
         "type":"text",
         "default_value":"redcap4bibbox",
