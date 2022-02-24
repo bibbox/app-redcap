@@ -45,7 +45,7 @@ services:
      TEMPLATE: default
      DISPLAYNAME: 'RedCap'  
 
- §§INSTANCE-adminer:
+  §§INSTANCE-adminer:
     image: adminer:4.8.1
     container_name: §§INSTANCE-redcap-adminer
     networks:
