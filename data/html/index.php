@@ -134,12 +134,20 @@ function dir_copy($src, $dst) {
  <html>  
  
       <head>  
-           <title>BIBBOX RedCap zip Upload</title>  
+           <!-- <title>BIBBOX RedCap zip Upload</title>  -->
+           <title>BIBBOX RedCap</title>
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
       </head>  
       <body>  
+           <h3 align="">RedCap Installation</h3><br />  
+           <p>Please follow the <a href="https://github.com/bibbox/app-redcap/blob/master/INSTALL-APP.md">installation instructions</a> to complete the RedCap set up.<br />  
+           <ul>
+           <li><a href="https://github.com/bibbox/app-redcap/blob/master/INSTALL-APP.md">https://github.com/bibbox/app-redcap/blob/master/INSTALL-APP.md</a></li>
+           </ul>
+           </p>
+           <!-- Might not be so save to allow to upload a zip that gets unzipped and "executed" 
            <br />  
            <div class="container" style="width:500px;">  
                 <h3 align="">Upload for RedCap zip file</h3><br />  
@@ -171,6 +179,6 @@ function dir_copy($src, $dst) {
                      <input type="submit" name="btn_zip" class="btn btn-info" value="Upload" />  
                 </form>  
            </div>  
-           <br />  
+           <br />  //-->
       </body>  
  </html>  
