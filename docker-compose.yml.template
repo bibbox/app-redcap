@@ -15,7 +15,7 @@ services:
       - MYSQL_ROOT_PASSWORD=§§MYSQL_ROOT_PASSWORD
       - MYSQL_DATABASE=§§MYSQL_DATABASE
       - MYSQL_USER=§§MYSQL_USER
-      - MYSQL_PASSWORD=$$MYSQL_PASSWORD
+      - MYSQL_PASSWORD=§§MYSQL_PASSWORD
     volumes:
       - ./data/mysql:/var/lib/mysql
       - ./data/config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf
@@ -39,7 +39,7 @@ services:
     environment:
       - DATABASE=§§MYSQL_DATABASE
       - DB_USER=§§MYSQL_USER
-      - DB_PASSWORD=$$MYSQL_PASSWORD
+      - DB_PASSWORD=§§MYSQL_PASSWORD
     proxy:
      TYPE: PRIMARY
      URLPREFIX: §§INSTANCE
