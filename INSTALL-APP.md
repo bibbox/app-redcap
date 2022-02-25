@@ -33,23 +33,13 @@ and
 
 4.) Open up FileZilla or similar FTP tool and connect to your BIBBOX.
 
-5.) Navigate to `/opt/bibbox/instances/YOUR-REDCAP-ID-app-redcap/data/www` and copy all contents of RedCap source files (`redcap7.zip/redcap/*`) to this directory via FTP.
+5.) Navigate to `/opt/bibbox/instances/YOUR-REDCAP-ID-app-redcap/data/html` and copy all contents of RedCap source files (`redcap7.zip/redcap/*`) to this directory via FTP.
 
-6.) Edit the `database.php` file and replace **RANDOM-8-DIGIT-STRING** with any random string of at least 8 capital letters or numbers:
+6.) copy 'data/html/config/database.php' to 'data/html/redcap/database.php' and RESTART the instance
+ 
+7.) Set permissions for `edocs`, `modules` and `temp` folders to 777. 
 
-      // database.php
-      
-      $hostname     = 'redcap-db';
-      $db           = 'redcap';
-      $username     = 'redcap';
-      $password     = 'redcap4bibbox';
-
-      $salt = 'RANDOM-8-DIGIT-STRING';
-
-
-7.) Set permissions for `edocs` and `temp` folders to 777. 
-
-8.) Now open up the RedCap app from your BIBBOX and append `/install.php` to the URL.
+8.) Now open up the RedCap app from your BIBBOX and append `/redcap/install.php` to the URL.
 
 ![1](assets/install-screen-01.jpg)
 
@@ -57,12 +47,14 @@ and
 
 ![2](assets/install-screen-02.jpg)
 
-10.) Install an Adminer application from the store within your BIBBOX and connect to the RedCap database:
+10.) Open the ADMINER application YOUR-REDCAP-ID-app-redcap-adminer.YOUR-BASE-URL. (It is also listed in the )
 
-  * Server: YOUR-REDCAP-ID-redcap-db
-  * Username: redcap
-  * Password: redcap4bibbox
-  * Database: redcap
+![2-1](assets/install-screen-02-1.jpg)
+
+  * Server: db
+  * Username: MYSQL_USERNAME is set during installation
+  * Password: MYSQL_PASSWORD is set during installation
+  * Database: MYSQL_DATABASE is set during installation
 
 
 11.) In Adminer or a similar database editor go to "SQL-command" and copy the SQL code from RedCap installation into the SQL field. Then execute and wait.
