@@ -20,9 +20,9 @@ Clone the github repsoitory and start the install.sh. If necessary change the po
 The BIBBOX framework can be installed 
 * as a [virtual machine](http://bibbox.bbmri-eric.eu/resources/machine/), 
 * using [vagrant/puppet](http://bibbox.readthedocs.io/en/latest/installation-vagrant/) 
-* are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/installation-source/)  
+* are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/)  
 
-After BIBBOX is up and running, you can use the [BIBBOX APP Store](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") to install a lot of software tools. 
+After BIBBOX is up and running, you can use the [BIBBOX APP Store](http://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") to install a lot of software tools. 
 
 ## Docker Images Used
 
