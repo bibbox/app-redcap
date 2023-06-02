@@ -1,6 +1,6 @@
 # RedCap BIBBOX application
 
-This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") or standalone. 
+This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/user-guide/#install-apps) or standalone. 
 
 * after the docker installation follow these [instructions](https://github.com/bibbox/app-redcap/blob/master/INSTALL-APP.md)
 
