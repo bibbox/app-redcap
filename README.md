@@ -1,14 +1,15 @@
 # RedCap BIBBOX application
 
-This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/user-guide/#install-apps) or standalone. 
+This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
-* after the docker installation follow these [instructions](https://github.com/bibbox/app-redcap/blob/master/INSTALL-APP.md)
+
+* after the docker installation follow these [instructions](INSTALL-APP.md)
 
 ## Standalone Installation
 
 Clone the github repsoitory and start the install.sh. If necessary change the ports and volume mounts in `docker-compose.yml`.  
 
-`sudo git clone https://github.com/bibbox/app-redcap
+`sudo git clone https://github.com/bibbox/app-redcap`
 
 `sudo chmod +x install.sh`
 
@@ -20,9 +21,9 @@ Clone the github repsoitory and start the install.sh. If necessary change the po
 The BIBBOX framework can be installed 
 * as a [virtual machine](http://bibbox.bbmri-eric.eu/resources/machine/), 
 * using [vagrant/puppet](http://bibbox.readthedocs.io/en/latest/installation-vagrant/) 
-* are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/installation-source/)  
+* are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/)  
 
-After BIBBOX is up and running, you can use the [BIBBOX APP Store](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") to install a lot of software tools. 
+After BIBBOX is up and running, you can use the BIBBOX APP Store to install a lot of software tools. 
 
 ## Docker Images Used
 

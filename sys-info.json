@@ -1,4 +1,0 @@
-{
-  runningcontainers:["§§INSTANCE-redcap", "§§INSTANCE-redcap-db"],
-  supportcontainers:["§§INSTANCE-redcap-data"]    
-}

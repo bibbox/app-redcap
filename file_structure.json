@@ -1,7 +1,0 @@
-{
-  "makefolders":[
-    "data/var/lib/mysql",
-    "data/www"
-  ],
-  "copyfiles":[]
-}

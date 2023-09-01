@@ -1,4 +1,13 @@
-data/
+data/html/upload/
+data/html/redcap/
+data/html/redcap_test/
+data/mysql/
+data/user-uploaded-documents
+
+test/
+test.zip
+
+
 .idea
 .idea/vcs.xml
 install.sql
