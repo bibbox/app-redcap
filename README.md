@@ -2,6 +2,7 @@
 
 This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
+
 * after the docker installation follow these [instructions](INSTALL-APP.md)
 
 ## Standalone Installation
@@ -22,7 +23,7 @@ The BIBBOX framework can be installed
 * using [vagrant/puppet](http://bibbox.readthedocs.io/en/latest/installation-vagrant/) 
 * are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/)  
 
-After BIBBOX is up and running, you can use the [BIBBOX APP Store](http://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") to install a lot of software tools. 
+After BIBBOX is up and running, you can use the BIBBOX APP Store to install a lot of software tools. 
 
 ## Docker Images Used
 
