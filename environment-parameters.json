@@ -3,7 +3,7 @@
         "id":"MYSQL_ROOT_PASSWORD",
         "display_name":"MySQL ROOT Password",
         "type":"text",
-        "default_value":"thispasswordisneverusedeveninsidethecontainer",
+        "default_value":"changethispasswordinproductionenvironments",
         "description":"ROOT Password for MySQL DB, please change for production",
         "min_length": "1",
         "max_length": "128"
