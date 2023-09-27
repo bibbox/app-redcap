@@ -1,46 +1,55 @@
-# RedCap BIBBOX application
+# redcap BIBBOX application
 
-This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
+This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
+- after the docker installation follow these [instructions](INSTALL-APP.md)
 
-* after the docker installation follow these [instructions](INSTALL-APP.md)
+## Standalone Installation 
 
-## Standalone Installation
+Clone the github repository. If necessary change the ports in the environment file `.env` and the volume mounts in `docker-compose.yml`.
 
-Clone the github repsoitory and start the install.sh. If necessary change the ports and volume mounts in `docker-compose.yml`.  
+```
+git clone https://github.com/bibbox/app-redcap
+cd app-redcap
+docker-compose up -d
+```
 
-`sudo git clone https://github.com/bibbox/app-redcap`
-
-`sudo chmod +x install.sh`
-
-`sudo ./install.sh`
-
+The main app can be opened and set up at
+```
+http://localhost:8096
+```
 
 ## Install within BIBBOX
 
-The BIBBOX framework can be installed 
-* as a [virtual machine](http://bibbox.bbmri-eric.eu/resources/machine/), 
-* are on any Ubuntu System following these [instructions](http://bibbox.readthedocs.io/en/latest/)  
+Visit the BIBBOX page and find the App by its name in the Store. Click on the symbol and select Install. Then fill the parameters below and name your app click install again.
 
-After BIBBOX is up and running, you can use the BIBBOX APP Store to install a lot of software tools. 
+## Docker Images used
+  - [mariadb](https://hub.docker.com/r/mariadb) 
+  - [bibbox/redcap](https://hub.docker.com/r/bibbox/redcap) 
+  - [adminer](https://hub.docker.com/r/adminer) 
 
-## Docker Images Used
 
-- bibbox/redcap
-- mysql:8
-- busybox:latest
  
- 
-## Database information
+## Install Environment Variables
+  - MYSQL_ROOT_PASSWORD = ROOT Password for MySQL DB, please change for production
+  - MYSQL_DATABASE = Database name for redcap database in MySQL
+  - MYSQL_USER = Username for MySql
+  - MYSQL_PASSWORD = Password for MySQL DB, please change for production
 
-- MYSQL root password: thispasswordisneverusedeveninsidethecontainer
-- Database: redcap
-- User: redcap
-- Password: redcap4bibbox
-- Host: redcap-db
+  
+The default values for the standalone installation are:
+  - MYSQL_ROOT_PASSWORD = changethispasswordinproductionenvironments
+  - MYSQL_DATABASE = redcap
+  - MYSQL_USER = redcap
+  - MYSQL_PASSWORD = redcap4bibbox
 
-
+  
 ## Mounted Volumes
-
-- /var/lib/mysql
-- /redcap_webroot
+### mariadb Conatiner
+  - *./data/mysql:/var/lib/mysql*
+  - *./data/config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf*
+### bibbox/redcap Conatiner
+  - *./data/html:/var/www/html*
+  - *./data/user-uploaded-documents:/opt/uploads*
+  - *./data/config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini*
+  - *./data/config/msmtprc:/etc/msmtprc*
