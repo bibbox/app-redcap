@@ -2,7 +2,7 @@
 
 This container can be installed as [BIBBOX APP](https://bibbox.readthedocs.io/en/latest/ "BIBBOX App Store") or standalone. 
 
-- after the docker installation follow these [instructions](INSTALL-APP.md)
+After the docker installation follow these [instructions](INSTALL-APP.md).
 
 ## Standalone Installation 
 
@@ -11,17 +11,18 @@ Clone the github repository. If necessary change the ports in the environment fi
 ```
 git clone https://github.com/bibbox/app-redcap
 cd app-redcap
+docker network create bibbox-default-network
 docker-compose up -d
 ```
 
-The main app can be opened and set up at
+The main App can be opened and set up at:
 ```
 http://localhost:8096
 ```
 
 ## Install within BIBBOX
 
-Visit the BIBBOX page and find the App by its name in the Store. Click on the symbol and select Install. Then fill the parameters below and name your app click install again.
+Visit the BIBBOX page and find the App by its name in the store. Click on the symbol and select install. Then fill the parameters below and name your App, click install again.
 
 ## Docker Images used
   - [mariadb](https://hub.docker.com/r/mariadb) 
@@ -53,3 +54,4 @@ The default values for the standalone installation are:
   - *./data/user-uploaded-documents:/opt/uploads*
   - *./data/config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini*
   - *./data/config/msmtprc:/etc/msmtprc*
+
