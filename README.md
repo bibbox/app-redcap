@@ -46,10 +46,10 @@ The default values for the standalone installation are:
 
   
 ## Mounted Volumes
-### mariadb Conatiner
+### mariadb Container
   - *./data/mysql:/var/lib/mysql*
   - *./data/config/mariadb.cnf:/etc/mysql/conf.d/mariadb.cnf*
-### bibbox/redcap Conatiner
+### bibbox/redcap Container
   - *./data/html:/var/www/html*
   - *./data/user-uploaded-documents:/opt/uploads*
   - *./data/config/php-extensin.ini:/usr/local/etc/php/conf.d/php-extensin.ini*
