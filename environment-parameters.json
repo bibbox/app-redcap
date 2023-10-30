@@ -4,7 +4,7 @@
         "display_name":"MySQL ROOT Password",
         "type":"text",
         "default_value":"changethispasswordinproductionenvironments",
-        "description":"ROOT Password for MySQL DB, please change for production",
+        "description":"Choose your ROOT Password for MySQL DB, please change for production",
         "min_length": "1",
         "max_length": "128"
      },
@@ -13,7 +13,7 @@
         "display_name":"MySQL Database",
         "type":"text",
         "default_value":"redcap",
-        "description":"Database name for redcap database in MySQL",
+        "description":"Choose your database name for redcap database in MySQL",
         "min_length": "1",
         "max_length": "128"
      },
@@ -22,7 +22,7 @@
         "display_name":"MySQL Username",
         "type":"text",
         "default_value":"redcap",
-        "description":"Username for MySql",
+        "description":"Choose your username for MySql",
         "min_length": "1",
         "max_length": "128"
      },
@@ -31,7 +31,7 @@
         "display_name":"MySQL Password",
         "type":"text",
         "default_value":"redcap4bibbox",
-        "description":"Password for MySQL DB, please change for production",
+        "description":"Choose your password for MySQL DB, please change for production",
         "min_length": "1",
         "max_length": "128"
      }
